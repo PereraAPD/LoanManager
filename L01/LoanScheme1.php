@@ -45,9 +45,9 @@
                 <li class="has-submenu">
                     <a href="#">Loan Disbursement - Semi-Annual</a>
                     <ul class="submenu">
-                        <li><a href="#">Upload Excel</a></li>
-                        <li><a href="#">Process Excel</a></li>
-                        <li><a href="#">Interest Subsidy Report</a></li>
+                        <li><a href="#" onclick="loadContent('UploadExcelAnnual.php')">Upload Excel</a></li>
+                        <li><a href="#" onclick="loadContent('ProcessExcelAnnual.php')">Process Excel</a></li>
+                        <li><a href="#" onclick="loadContent('InterestSubsidyAnnual.php')">Interest Subsidy Report</a></li>
                     </ul>
                 </li>
                 <li class="has-submenu">
