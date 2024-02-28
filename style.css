@@ -1,0 +1,126 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.9), rgba(255, 255, 255, 0.5), rgba(0, 0, 0, 0.9)), url('background_image.jpg');
+    background-size: cover;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 5px;
+    width: 200px; /* Set width to match the #navbar width */
+}
+.logo-container img {
+    max-width: 50px;
+}
+.title-container{
+    align-items: center;
+    flex-grow: 1;
+}
+.logo-container p{
+    margin-bottom: 0;
+}
+
+
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 5px;
+    position: fixed;
+    bottom:0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-left {
+    display: flex;
+}
+.footer-left a {
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    
+    display: flex;
+    align-items: center;
+    padding-left: 25px;
+    padding-right: 25px;
+    width: auto;
+}
+.footer-right {
+    flex-grow: 1;
+}
+
+#navbar {
+    position: fixed;
+    left: 0;
+    background-color: #333;
+    padding: 10px;
+    color: #fff;
+    width: 200px;
+    text-align: center;
+    height: calc(100% - 175px);
+    overflow-y: auto;
+}
+
+@media only screen and (max-width: 600px) {
+    #navbar {
+        width: 100%;
+        height:auto; /* Change height to auto for smaller screens */
+    }
+}
+
+#navbar a {
+    display: block;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    background-color: #555;
+    color: #fff;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+#navbar a:hover {
+    background-color: #777;
+}
+
+#content {
+    margin-left: 220px;
+    padding: 20px;
+    color: #333;
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 40px;
+}
+
+#contact {
+    margin-top: 20px;
+}
+
+/* #logout {
+    position: fixed;
+    bottom: 10px;
+    left: 10px;
+}
+
+#security {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+} */
