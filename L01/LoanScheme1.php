@@ -53,9 +53,9 @@
                 <li class="has-submenu">
                     <a href="#">Database Maintenance</a>
                     <ul class="submenu">
-                        <li><a href="#">Delete All Data Project Wise</a></li>
-                        <li><a href="#">Backup Database</a></li>
-                        <li><a href="#">Condition of Rate</a></li>
+                        <li><a href="#" onclick="loadContent('DeleteAllDataProjectWise.php')">Delete All Data Project Wise</a></li>
+                        <li><a href="#" onclick="loadContent('BackupDatabase.php')">Backup Database</a></li>
+                        <li><a href="#" onclick="loadContent('ConditionOfRate.php')">Condition of Rate</a></li>
                     </ul>
                 </li>
             </ul>
