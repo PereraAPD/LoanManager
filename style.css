@@ -2,7 +2,8 @@ body {
     margin: 0;
     padding: 0;
     font-family: Arial, sans-serif;
-    background: linear-gradient(to right, rgba(0, 0, 0, 0.9), rgba(255, 255, 255, 0.5), rgba(0, 0, 0, 0.9)), url('background_image.jpg');
+    /* background: linear-gradient(to right, rgba(0, 0, 0, 0.9), rgba(255, 255, 255, 0.5), rgba(0, 0, 0, 0.9)), url('background_image.jpg'); */
+    background: linear-gradient(to right, rgba(78, 51, 201, 0.9), rgba(221, 61, 61, 0.5), rgba(79, 199, 46, 0.9)), url('background_image.jpg');
     background-size: cover;
 }
 

@@ -36,10 +36,10 @@
                 <li class="has-submenu">
                     <a href="#">Loan Disbursement - Monthly</a>
                     <ul class="submenu">
-                        <li><a href="#">Upload Excel</a></li>
-                        <li><a href="#">Process Excel</a></li>
-                        <li><a href="#">Customer Ledger</a></li>
-                        <li><a href="#">Interest Subsidy</a></li>
+                        <li><a href="#" onclick="loadContent('UploadExcel.php')">Upload Excel</a></li>
+                        <li><a href="#" onclick="loadContent('ProcessExcel.php')">Process Excel</a></li>
+                        <li><a href="#" onclick="loadContent('CustomerLedger.php')">Customer Ledger</a></li>
+                        <li><a href="#" onclick="loadContent('InterestSubsidy.php')">Interest Subsidy</a></li>
                     </ul>
                 </li>
                 <li class="has-submenu">
