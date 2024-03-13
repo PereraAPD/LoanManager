@@ -3,11 +3,16 @@ body {
     padding: 0;
     font-family: Arial, sans-serif;
     /* background: linear-gradient(to right, rgba(0, 0, 0, 0.9), rgba(255, 255, 255, 0.5), rgba(0, 0, 0, 0.9)), url('background_image.jpg'); */
-    background: linear-gradient(to right, rgba(78, 51, 201, 0.9), rgba(221, 61, 61, 0.5), rgba(79, 199, 46, 0.9)), url('background_image.jpg');
+    background: linear-gradient(to right, rgba(254, 168, 249, 0.9), rgb(131, 107, 250), rgba(254, 168, 249, 0.9)), url('background_image.jpg'); */
+    /* background: linear-gradient(to right, rgba(227, 149, 81, 0.9), rgb(124, 68, 46), rgba(227, 117, 76, 0.9)), url('background_image.jpg');
+    /* background:url('background_image.jpg'); */
     background-size: cover;
 }
 
 header {
+    position: fixed;
+    z-index: 1000;
+    width: 100%;
     background-color: #333;
     color: #fff;
     text-align: center;
@@ -21,10 +26,10 @@ header {
     align-items: center;
     flex-direction: column;
     padding: 5px;
-    width: 200px; /* Set width to match the #navbar width */
+    width: 200px;; /* Set width to match the #navbar width */
 }
 .logo-container img {
-    max-width: 50px;
+    max-width: 30px;
 }
 .title-container{
     align-items: center;
@@ -32,11 +37,13 @@ header {
 }
 .logo-container p{
     margin-bottom: 0;
+    margin-top:0;
 }
 
 
 
 footer {
+    z-index=1001;
     background-color: #333;
     color: #fff;
     text-align: center;
@@ -67,27 +74,30 @@ footer {
     flex-grow: 1;
 }
 
-#navbar {
+.navbar {
     position: fixed;
+    top:67.025px;
     left: 0;
     background-color: #333;
     padding: 10px;
     color: #fff;
-    width: 200px;
-    text-align: center;
-    height: calc(100% - 175px);
+    /* width: 200px; */
+    height: calc(100% - 144.2125px);
     overflow-y: auto;
+    display: flex;
+    flex-direction: column;
 }
 
 @media only screen and (max-width: 600px) {
     #navbar {
-        width: 100%;
+        width: 200px;
         height:auto; /* Change height to auto for smaller screens */
     }
 }
 
-#navbar a {
-    display: block;
+.navbar a {
+    display: flex;
+    align-items: center;
     padding: 10px;
     margin-bottom: 10px;
     border-radius: 8px;
@@ -95,25 +105,119 @@ footer {
     color: #fff;
     text-decoration: none;
     transition: background-color 0.3s;
+    font-size: medium;
 }
 
-#navbar a:hover {
-    background-color: #777;
+.navbar a i {
+    margin-right: 10px; /* Add space between icon and text */
 }
 
-#content {
+.navbar a span {
+    flex-grow: 1;
+    /* text-align: center; */
+}
+
+.navbar a:hover {
+    background-color: #777777;
+}
+
+.content {
     margin-left: 220px;
     padding: 20px;
     color: #333;
     text-align: center;
-    margin-top: 80px;
     margin-bottom: 40px;
+}
+#content-box{
+    margin-top: 67.025px;
+    background-color: rgba(255, 255, 255, 0.5); /* Semi-transparent white background */
+    backdrop-filter: blur(10px); /* Apply a blur effect */
+    border-radius: 20px; /* Rounded corners */
+    padding: 20px;
+    opacity:1;
 }
 
 #contact {
     margin-top: 20px;
 }
 
+.contact-info {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin-top: 30px;
+    gap: 20px;
+    animation: slideIn 1s ease-out forwards; /* Apply slideIn animation */
+}
+
+.contact-box {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    flex: 1; /* Make the boxes flexible to occupy equal space */
+    opacity: 1; /* Initially hide the boxes */
+}
+
+.contact-box:nth-child(2) {
+    animation-delay: 1s; /* Delay animation for the second box */
+}
+
+.contact-box h3 {
+    margin-top: 0;
+}
+.contact-box p {
+    margin-bottom: 10px; /* Add bottom margin for paragraphs */
+}
+.contact-box address {
+    margin: 10px 0;
+    font-style: normal;
+}
+
+.contact-box address a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.contact-box address a:hover {
+    text-decoration: underline;
+}
+
+/* CSS for contact information tables */
+.contact-info table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+.contact-info th,
+.contact-info td {
+    padding: 8px;
+    text-align: center; /* Center-align the content */
+    border-bottom: 1px solid #ddd;
+    width: 25%;
+}
+
+.contact-info th {
+    background-color: #f2f2f2;
+}
+
+.contact-info tr:hover {
+    background-color: #f2f2f2;
+}
+
+/* Define slideIn animation */
+@keyframes slideIn {
+    from {
+        opacity: 0; /* Start with opacity 0 */
+        transform: translateY(50px); /* Move boxes down by 50px */
+    }
+    to {
+        opacity: 1; /* Show boxes */
+        transform: translateY(0); /* Move boxes to their original position */
+    }
+}
 /* #logout {
     position: fixed;
     bottom: 10px;

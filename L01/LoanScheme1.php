@@ -12,6 +12,9 @@
 <body>
     <!-- Header with Main Tab Items -->
     <header>
+        <div class="title" id="title">
+            General Dashboard
+        </div>
         <div class="navbar" id="navbar">
             <ul>
                 <li><a href="../ApplicationConsole.php">Home</a></li>
