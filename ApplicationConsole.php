@@ -22,23 +22,24 @@
     <div id="navbar">
         <!-- Navigation tabs for loan schemes -->
         <a href="L01/LoanScheme1.php"><i class="fas fa-home"></i> <!-- Font Awesome icon for home -->
-            Loan Scheme 1</a>
-        <a href="L02/LoanScheme2.php"><i class="fas fa-home"></i> <!-- Font Awesome icon for home -->Loan Scheme 2</a>
-        <a href="L03/LoanScheme3.php"><i class="fas fa-home"></i> <!-- Font Awesome icon for home -->Loan Scheme 3</a>
-        <a href="L04/LoanScheme4.php"><i class="fas fa-home"></i> <!-- Font Awesome icon for home -->Loan Scheme 4</a>
-        <a href="L05/LoanScheme5.php"><i class="fas fa-home"></i> <!-- Font Awesome icon for home -->Loan Scheme 5</a>
-        <a href="L06/LoanScheme6.php"><i class="fas fa-home"></i> <!-- Font Awesome icon for home -->Loan Scheme 6</a>
-        <a href="L07/LoanScheme7.php"><i class="fas fa-home"></i> <!-- Font Awesome icon for home -->Loan Scheme 7</a>
-        <a href="L08/LoanScheme8.php"><i class="fas fa-home"></i> <!-- Font Awesome icon for home -->Loan Scheme 8</a>
-        <a href="L09/LoanScheme9.php"><i class="fas fa-home"></i> <!-- Font Awesome icon for home -->Loan Scheme 9</a>
-        <a href="L10/LoanScheme10.php"><i class="fas fa-home"></i> <!-- Font Awesome icon for home -->Loan Scheme 10</a>
-        <a href="L11/LoanScheme11.php"><i class="fas fa-home"></i> <!-- Font Awesome icon for home -->Loan Scheme 11</a>
-        <a href="L12/LoanScheme12.php"><i class="fas fa-home"></i> <!-- Font Awesome icon for home -->Loan Scheme 12</a>
-        <a href="L13/LoanScheme13.php"><i class="fas fa-home"></i> <!-- Font Awesome icon for home -->Loan Scheme 13</a>
-        <a href="L14/LoanScheme14.php"><i class="fas fa-home"></i> <!-- Font Awesome icon for home -->Loan Scheme 14</a>
-        <a href="L15/#LoanScheme15.php"><i class="fas fa-home"></i> <!-- Font Awesome icon for home -->Loan Scheme 15</a>
-        <a href=L16/LoanScheme16.php"><i class="fas fa-home"></i> <!-- Font Awesome icon for home -->Loan Scheme 16</a>
-        <a href="L17/LoanScheme17.php"><i class="fas fa-home"></i> <!-- Font Awesome icon for home -->Loan Scheme 17</a>
+            General</a>
+        <a href="L02/LoanScheme2.php"><i class="fas fa-home">Sonduru Piyasa</i> <!-- Font Awesome icon for home --></a>
+        <a href="L03/LoanScheme3.php"><i class="fas fa-home"></i> <!-- Font Awesome icon for home -->Govi Navoda</a>
+        <a href="L04/LoanScheme4.php"><i class="fas fa-home"></i> <!-- Font Awesome icon for home -->Riya Shakthi</a>
+        <a href="L05/LoanScheme5.php"><i class="fas fa-home"></i> <!-- Font Awesome icon for home -->Ran Aswenna</a>
+        <a href="L06/LoanScheme6.php"><i class="fas fa-home"></i> <!-- Font Awesome icon for home -->Jaya Isura</a>
+        <a href="L07/LoanScheme7.php"><i class="fas fa-home"></i> <!-- Font Awesome icon for home -->Rivi Bala Savi</a>
+        <a href="L08/LoanScheme8.php"><i class="fas fa-home"></i> <!-- Font Awesome icon for home -->Diri Saviya</a>
+        <a href="L09/LoanScheme9.php"><i class="fas fa-home"></i> <!-- Font Awesome icon for home -->Madya Aruna</a>
+        <a href="L10/LoanScheme10.php"><i class="fas fa-home"></i> <!-- Font Awesome icon for home -->Green Loan</a>
+        <a href="L11/LoanScheme11.php"><i class="fas fa-home"></i> <!-- Font Awesome icon for home -->Home Sweet Home</a>
+        <a href="L12/LoanScheme12.php"><i class="fas fa-home"></i> <!-- Font Awesome icon for home -->Sihina Maigaya</a>
+        <a href="L13/LoanScheme13.php"><i class="fas fa-home"></i> <!-- Font Awesome icon for home -->Rekawaranaya</a>
+        <a href="L14/LoanScheme14.php"><i class="fas fa-home"></i> <!-- Font Awesome icon for home -->Mini Taxi</a>
+        <a href="L15/#LoanScheme15.php"><i class="fas fa-home"></i> <!-- Font Awesome icon for home -->Sigithi Pasala</a>
+        <a href=L16/LoanScheme16.php"><i class="fas fa-home"></i> <!-- Font Awesome icon for home -->Working Capital</a>
+        <a href="L17/LoanScheme17.php"><i class="fas fa-home"></i> <!-- Font Awesome icon for home -->City Ride</a>
+        <a href="L18/LoanScheme18.php"><i class="fas fa-home"></i> <!-- Font Awesome icon for home -->My Future</a>
         <a href="security.php"><i class="fas fa-shield-alt"></i> Security</a>
 
         <!-- Other tabs -->
