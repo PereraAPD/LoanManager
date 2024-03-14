@@ -2,19 +2,24 @@ body {
     margin: 0;
     padding: 0;
     font-family: Arial, sans-serif;
-    background: linear-gradient(to right, rgba(78, 51, 201, 0.9), rgba(221, 61, 61, 0.5), rgba(79, 199, 46, 0.9)), url('background_image.jpg');
+    background-color: #eeeeee;
+    /* background: linear-gradient(to right, rgba(83, 75, 118, 0.9), rgba(217, 104, 163, 0.5), rgba(118, 142, 195, 0.9)), url('background_image.jpg'); */
     background-size: cover;
 }
 
 header {
-    background-color: #333;
-    color: #fff;
+    width:100%;
+    position: fixed;
+    top:0;
+    background: linear-gradient(to right, #f7b709, #fff5d8,#f7b809);
+    color: #000000;
     text-align: center;
     display: flex;
-    align-items: center;
+    flex-direction: column;
     justify-content: space-between;
+    box-shadow: #ff1919;
+    scrollbar-gutter:stable;
 }
-
 .user-info {
     display: flex;
     align-items: center;
@@ -28,14 +33,15 @@ header {
 }
 
 #content {
-    margin-top: 20px;
+    margin-top: 50px;
     margin-left: 20px;
     padding: 20px;
     color: #333;
 }
 
 footer {
-    background-color: #333;
+    width:100%;
+    background-color: #811313;
     color: #fff;
     text-align: center;
     padding: 5px;
@@ -45,6 +51,7 @@ footer {
     width: 100%;
     display: flex;
     justify-content: space-between;
+    scrollbar-gutter:stable;
 }
 
 .footer-left {
@@ -70,9 +77,19 @@ footer {
 }
 
 /* Navigation Styles */
+.title{
+    font-size: 24px;
+    margin: 0px;
+    padding-top: 5px;
+    width:100%;
+    font-weight: bold;
+
+}
 .navbar {
-    background-color: #333;
-    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    background-color: #811313;
+    align-items: center;
 }
 
 .navbar ul {
@@ -87,7 +104,8 @@ footer {
 }
 
 .navbar a {
-    display: block;
+    flex-grow: 1;
+    display: flex;
     padding: 10px 20px;
     color: #fff;
     text-decoration: none;
@@ -98,7 +116,7 @@ footer {
 }
 
 .navbar a:hover {
-    background-color: #555;
+    background-color: #a65151;
 }
 
 .has-submenu .submenu {

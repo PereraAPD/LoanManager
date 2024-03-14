@@ -70,11 +70,13 @@ tbody tr:hover {
 
 
 .tab-bar {
-    background-color: #333;
+    position: fixed;
+    /* background-color: #333; */
     display: flex;
     justify-content:space-around;
-    border-bottom: 1px solid #555; /* Add a border at the bottom for separation */
+    border-left: 1px solid #555; /* Add a border at the bottom for separation */
     width: fit-content;
+    border-radius:8px;
 }
 
 .tab-bar a {

@@ -14,7 +14,7 @@
     <!-- Header with Main Tab Items -->
     <header>
     <div class="title" id="title">
-            Diri Saviya Dashboard
+            My Future Dashboard
         </div>
         <div class="navbar" id="navbar">
             <ul>

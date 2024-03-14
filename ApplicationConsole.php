@@ -11,8 +11,9 @@
 <body>
     <header>
         <div class="logo-container">
-            <!-- <img src="logo.png" alt="Logo"> Replace with the actual path to your logo -->
-            <p>Main Menu</p>
+            <img src="logo.png" alt="Logo"> <!-- Replace with the actual path to your logo -->
+            <!-- <span>LMS</span> -->
+            <span>Main Menu</span>
         </div>
         <div class="title-container">
            <h2> Dashboard</h2>
@@ -36,8 +37,8 @@
         <a href="L12/LoanScheme12.php"><i class="fas fa-home"></i> <!-- Font Awesome icon for home --><span>Sihina Maligaya</span></a>
         <a href="L13/LoanScheme13.php"><i class="fas fa-home"></i> <!-- Font Awesome icon for home --><span>Rekawaranaya</span></a>
         <a href="L14/LoanScheme14.php"><i class="fas fa-home"></i> <!-- Font Awesome icon for home --><span>Mini Taxi</span></a>
-        <a href="L15/#LoanScheme15.php"><i class="fas fa-home"></i> <!-- Font Awesome icon for home --><span>Sigithi Pasala</span></a>
-        <a href=L16/LoanScheme16.php"><i class="fas fa-home"></i> <!-- Font Awesome icon for home --><span>Working Capitol</span></a>
+        <a href="L15/LoanScheme15.php"><i class="fas fa-home"></i> <!-- Font Awesome icon for home --><span>Sigithi Pasala</span></a>
+        <a href="L16/LoanScheme16.php"><i class="fas fa-home"></i> <!-- Font Awesome icon for home --><span>Working Capitol</span></a>
         <a href="L17/LoanScheme17.php"><i class="fas fa-home"></i> <!-- Font Awesome icon for home --><span>City Ride</span></a>
         <a href="L18/LoanScheme18.php"><i class="fas fa-home"></i> <!-- Font Awesome icon for home --><span>My Future</span></a>
         <a href="security.php"><i class="fas fa-shield-alt"></i> <span>Security</span></a>
@@ -112,11 +113,11 @@
     </div> -->
     <footer>
     <div class="footer-left">
-            <a href="user.php">
-                <i class="fas fa-user"></i><!-- user icon --> User
+            <a href="user.php"> 
+                <i class="fas fa-user"></i> <!-- user icon --> User
             </a>
-            <a href="logout.php">
-                <i class="fas fa-sign-out-alt"></i><!-- logout icon --> Logout
+            <a href="logout.php"> 
+                <i class="fas fa-sign-out-alt"></i> <!-- logout icon --> Logout
             </a>
     </div>
     <div class="footer-right">
