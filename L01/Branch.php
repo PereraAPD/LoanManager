@@ -18,17 +18,29 @@
     </div>
 <!-- Bank Form -->
 <!-- esBranch/Branch.php -->
-
+<div class="container">
+        <!-- Form container -->
+        <div class="form-container">
 <!-- Branch Form -->
 <form action="add_branch.php" method="post">
     <label for="bankName">Bank Name:</label>
-    <!-- Dropdown with options for bank names -->
+    <select id="bank" name="bank" required>
+    <option value="" disabled selected>Select Bank</option>
+        <option value="BOC">Bank of Ceylon</option>
+        <option value="NSB">National Savings Bank</option>
+        <option value="PB">People's Bank</option>
+    </select>
 
     <label for="branchCode">Branch Code:</label>
     <input type="text" id="branchCode" name="branchCode" required>
 
     <label for="district">District:</label>
-    <!-- Dropdown with options for districts -->
+    <select id="district" name="district" required>
+    <option value="" disabled selected>Select District</option>
+        <option value="gampaha">Gampaha</option>
+        <option value="colombo">Colombo</option>
+        <option value="Kandy">Kandy</option>
+    </select>
 
     <label for="branchName">Branch Name:</label>
     <input type="text" id="branchName" name="branchName" required>
@@ -42,8 +54,9 @@
     <button type="submit">Add</button>
     <button type="reset">New</button>
 </form>
-
+        </div>
 <!-- Display Branch Details -->
+<div class="table-container">
 <table>
     <thead>
         <tr>
@@ -61,6 +74,7 @@
         <!-- Each row should have options for edit and delete -->
     </tbody>
 </table>
-
+</div>
+</div>
 </body>
 </html>

@@ -16,6 +16,10 @@
         <a href="#" onclick="loadContent('District.php')">District</a>
         <a href="#" onclick="loadContent('Division.php')">Division</a>
     </div>
+    <div class="container">
+        <!-- Form container -->
+        <div class="form-container">
+            <br>
 <!-- District Form -->
 <form action="add_district.php" method="post">
     <label for="districtName">District Name:</label>
@@ -24,7 +28,8 @@
     <button type="submit">Add</button>
     <button type="reset">New</button>
 </form>
-
+        </div>
+        <div class="table-container">
 <!-- Display District Details -->
 <table>
     <thead>
@@ -38,5 +43,7 @@
         <!-- Each row should have options for edit and delete -->
     </tbody>
 </table>
+</div>
+</div>
 </body>
 </html>

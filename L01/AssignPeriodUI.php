@@ -7,9 +7,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Assign Period UI</title>
-    <link rel="stylesheet" href="AssignPeriod_style.css">
 </head>
 <body>
+    <div class="container">
+    <div class="form-container">
 <!-- Your Form -->
 <form action="processPeriodAssignment.php" method="post">
     <label for="loanScheme">Loan Scheme:</label>
@@ -41,7 +42,8 @@
     <button type="button" onclick="printRecords()">Print</button>
 
 </form>
-
+    </div>
+    <div class="table-container">
 <!-- Your Table -->
 <table border="1">
     <thead>
@@ -66,7 +68,8 @@
         <!-- Add more rows as needed -->
     </tbody>
 </table>
-
+</div>
+</div>
 <script>
 function printRecords() {
     // Fetch the content of the table

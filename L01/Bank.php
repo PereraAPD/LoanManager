@@ -15,6 +15,10 @@
         <a href="#" onclick="loadContent('District.php')">District</a>
         <a href="#" onclick="loadContent('Division.php')">Division</a>
     </div>
+    <div class="container">
+        <!-- Form container -->
+        <div class="form-container">
+            <br>
 <!-- Bank Form -->
 
 <form action="add_bank.php" method="post">
@@ -33,6 +37,8 @@
     <button type="submit">Add</button>
     <button type="reset">New</button>
 </form>
+        </div>
+        <div class="table-container">
 
 <!-- Display Bank Details -->
 <table>
@@ -51,5 +57,7 @@
         <!-- Each row should have options for edit and delete -->
     </tbody>
 </table>
+</div>
+    </div>
 </body>
 </html>
