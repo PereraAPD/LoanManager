@@ -57,6 +57,7 @@ button:hover {
 }
 
 table {
+    width: 100%;
     max-width: 600px;
     margin: 20px auto;
     background-color: #fff;
@@ -66,7 +67,7 @@ table {
 
 table, th, td {
     border-collapse: collapse;
-    width: 100%;
+    border:none;
 }
 
 th, td {
