@@ -8,17 +8,9 @@
     <!-- Add other stylesheet links as needed -->
 </head>
 <body>
-    <!-- Tab bar -->
-    <div class="tab-bar">
-        <a href="#" onclick="loadContent('Bank.php')">Bank</a>
-        <a href="#" onclick="loadContent('Branch.php')">Branch</a>
-        <a href="#" onclick="loadContent('District.php')">District</a>
-        <a href="#" onclick="loadContent('Division.php')">Division</a>
-    </div>
     <div class="container">
         <!-- Form container -->
         <div class="form-container">
-            <br>
 <!-- Bank Form -->
 
 <form action="add_bank.php" method="post">

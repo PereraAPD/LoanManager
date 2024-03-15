@@ -106,4 +106,54 @@ tbody tr:hover {
 .tab-bar a:hover {
     background-color: #555;
 }
+.navigation-box {
+    align-self: center;
+    z-index:-1;
+    background-color: #c6c5c580; /* Semi-transparent white background */
+    backdrop-filter: blur(20px); /* Apply a blur effect */
+    border-radius: 20px; /* Rounded corners */
+    padding: 20px;
+    margin-top: 20px; /* Add some top margin for separation */
+}
 
+.navigation-box h2 {
+    margin-top: 0; 
+}
+
+.button-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px; 
+    justify-content: center; 
+    animation: slideInFromBottom 0.5s ease forwards;
+}
+
+.button-container button {
+    width:15%;
+    padding: 10px 20px; 
+    font-size: 16px; 
+    border: none;
+    /* background-color: #3bc933;*/
+    color: #fff; 
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s; 
+}
+
+.button-container button:hover {
+    background-color: #d6c743;
+}
+/* CSS animation for button container */
+@keyframes slideInFromBottom {
+    0% {
+        opacity: 0;
+        transform: translateY(100px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+ul li{
+    padding-top: 5px;
+}
