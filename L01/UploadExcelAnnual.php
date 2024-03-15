@@ -8,9 +8,7 @@
     <!-- Add your stylesheets and other head elements here -->
 </head>
 <body>
-
     <h1>Upload Excel - Annual</h1>
-
     <!-- Form for uploading Excel -->
     <form action="uploadexcelannual_handler.php" method="post">
         <label for="loanScheme">Select Loan Scheme:</label>
