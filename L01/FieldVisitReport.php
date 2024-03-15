@@ -13,7 +13,6 @@
 <body>
 
     <!-- Content area -->
-    <div id="content">
         <h1>Field Visit Report</h1>
 
         <!-- Field Visit Report Form -->
@@ -55,7 +54,6 @@
         <div id="fieldVisitReportDisplay">
             <!-- This is where the field visit report will be displayed -->
         </div>
-    </div>
 
     <!-- Include your JavaScript file (if needed) -->
     <script src="script.js"></script>

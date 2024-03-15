@@ -13,7 +13,6 @@
 <body>
 
     <!-- Content area -->
-    <div id="content">
         <h1>Daily Uploading Report</h1>
 
         <!-- Daily Uploading Report Form -->
@@ -45,7 +44,6 @@
         <div id="reportDisplay">
             <!-- This is where the summary or attachment will be displayed -->
         </div>
-    </div>
 
     <!-- Include your JavaScript file (if needed) -->
     <script src="script.js"></script>

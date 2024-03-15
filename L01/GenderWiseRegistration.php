@@ -13,7 +13,6 @@
 <body>
 
     <!-- Content area -->
-    <div id="content">
         <h1>Gender Wise Registration</h1>
 
         <!-- Gender Wise Registration Form -->
@@ -39,7 +38,6 @@
         <div id="registrationDisplay">
             <!-- This is where the gender-wise registration will be displayed -->
         </div>
-    </div>
 
     <!-- Include your JavaScript file (if needed) -->
     <script src="script.js"></script>

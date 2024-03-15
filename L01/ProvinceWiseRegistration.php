@@ -13,7 +13,6 @@
 <body>
 
     <!-- Content area -->
-    <div id="content">
         <h1>Province Wise Registration</h1>
 
         <!-- Province Wise Registration Form -->
@@ -47,7 +46,6 @@
         <div id="registrationDisplay">
             <!-- This is where the province-wise registration will be displayed -->
         </div>
-    </div>
 
     <!-- Include your JavaScript file (if needed) -->
     <script src="script.js"></script>

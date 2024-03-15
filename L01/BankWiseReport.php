@@ -13,7 +13,6 @@
 <body>
 
     <!-- Content area -->
-    <div id="content">
         <h1>Bank Wise Report</h1>
 
         <!-- Bank Wise Report Form -->
@@ -50,7 +49,6 @@
         <div id="reportDisplay">
             <!-- This is where the bank-wise report will be displayed -->
         </div>
-    </div>
 
     <!-- Include your JavaScript file (if needed) -->
     <script src="script.js"></script>

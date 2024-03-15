@@ -74,7 +74,7 @@
     </header>
 
     <!-- Page Content -->
-    <div id="content">
+    <div id="content" class="scrollable-content">
     
     <div class="navigation-box">
         <h2>Instructions</h2>

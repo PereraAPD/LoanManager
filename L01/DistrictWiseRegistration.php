@@ -13,7 +13,6 @@
 <body>
 
     <!-- Content area -->
-    <div id="content">
         <h1>District Wise Registration</h1>
 
         <!-- District Wise Registration Form -->
@@ -55,7 +54,6 @@
         <div id="registrationDisplay">
             <!-- This is where the district-wise registration will be displayed -->
         </div>
-    </div>
 
     <!-- Include your JavaScript file (if needed) -->
     <script src="script.js"></script>

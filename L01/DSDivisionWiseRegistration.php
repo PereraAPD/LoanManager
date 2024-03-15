@@ -13,7 +13,6 @@
 <body>
 
     <!-- Content area -->
-    <div id="content">
         <h1>Ds Division Wise Registration</h1>
 
         <!-- DS Division Wise Registration Form -->
@@ -63,7 +62,6 @@
         <div id="registrationDisplay">
             <!-- This is where the DS division-wise registration will be displayed -->
         </div>
-    </div>
 
     <!-- Include your JavaScript file (if needed) -->
     <script src="script.js"></script>

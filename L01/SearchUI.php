@@ -12,7 +12,6 @@
 </head>
 <body>
     <!-- Content area -->
-    <div id="content">
         <div class="container">
         <div class="form-container">
         <h2><center>Search Loans</center></h2>
@@ -59,7 +58,6 @@
     </table>
         </div>
         </div>
-    </div>
 
     <!-- Include your JavaScript file (if needed) -->
     <script src="script.js"></script>

@@ -13,7 +13,6 @@
 <body>
 
     <!-- Content area -->
-    <div id="content">
         <h1>Sector Wise Registration</h1>
 
         <!-- Sector Wise Registration Form -->
@@ -39,7 +38,6 @@
         <div id="registrationDisplay">
             <!-- This is where the sector-wise registration will be displayed -->
         </div>
-    </div>
 
     <!-- Include your JavaScript file (if needed) -->
     <script src="script.js"></script>
