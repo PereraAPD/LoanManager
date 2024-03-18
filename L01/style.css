@@ -111,6 +111,7 @@ footer {
 
 .navbar li {
     margin: 0;
+    padding:5px 0px 0px 0px;
 }
 
 .navbar a {

@@ -94,3 +94,6 @@ tbody tr:hover {
 ul li{
     padding-top: 5px;
 }
+.navbar ul.submenu{
+    padding:0px;
+}
