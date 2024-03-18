@@ -25,7 +25,7 @@
 
     <!-- Content goes here -->
         <!-- Add your content here -->
-        <h1>Welcome to Approve1 Page</h1>
+        <h1>Approve1</h1>
         <!-- Add more content as needed -->
         <!-- Add any specific content for Approve1 page -->
 
