@@ -16,24 +16,6 @@
     <div class="title" id="title">
             Govi Navoda Dashboard
         </div>
-        <!-- <div class="navbar" id="navbar">
-            <ul>
-                <li><a href="../ApplicationConsole.php">Home</a></li>
-                
-               
-                <li class="has-submenu">
-                    <a href="#">Approve</a>
-                    <ul class="submenu">
-                    <li><a href="#" onclick="loadContent('L3Approve1.php')">Approve1</a></li>
-                    <li><a href="#" onclick="loadContent('L3Approve2.php')">Approve2</a></li>
-                    <li><a href="#" onclick="loadContent('L3Approved.php')">View Approved</a></li>
-                    </ul>
-                </li>
-                <li><a href="#" onclick="loadContent('L3Reference.php')">Reference</a></li>
-                <li><a href="#" onclick="loadContent('L3RegForm.php')">Registration</a></li>
-                <li><a href="#" onclick="loadContent('L3DUReport.php')">Daily Uploading Report</a></li>
-            </ul>
-        </div> -->
         <div class="navbar" id="navbar">
             <ul>
                 <li><a href="../ApplicationConsole.php">Home</a></li>
@@ -42,8 +24,7 @@
                 <li class="has-submenu">
                     <a href="#">Approve</a>
                     <ul class="submenu">
-<<<<<<< HEAD
-<li><a href="#" onclick="loadContent('L3Approve1.php')">Approve1</a></li>
+                    <li><a href="#" onclick="loadContent('L3Approve1.php')">Approve1</a></li>
                     <li><a href="#" onclick="loadContent('L3Approve2.php')">Approve2</a></li>
                     <li><a href="#" onclick="loadContent('L3Approved.php')">View Approved</a></li>
                     </ul>

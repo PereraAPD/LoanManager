@@ -19,9 +19,14 @@
         <div class="navbar" id="navbar">
             <ul>
                 <li><a href="../ApplicationConsole.php">Home</a></li>
-                <li><a href="#" onclick="loadContent('L2Approve1.php')">Approve 1</a></li>
+                <li class="has-submenu">
+                    <a href="#">Approve</a>
+                    <ul class="submenu">
+                    <li><a href="#" onclick="loadContent('L2Approve1.php')">Approve 1</a></li>
                 <li><a href="#"onclick="loadContent('L2Approve2.php')">Approve 2</a></li>
                 <li><a href="#"onclick="loadContent('L2Approved.php')">View Approved</a></li>
+                    </ul>
+                </li>
                 <li><a href="#" onclick="loadContent('L2DUReport.php')">Daily Uploading Report</a></li>
                 <li><a href="#" onclick="loadContent('L2RegForm.php')">Registration Form</a></li>
                 <li class="has-submenu">
@@ -36,10 +41,68 @@
     </header>
 
     <!-- Content goes here -->
-    <div id="content">
-        <!-- Add your content here -->
-        <h1>Welcome to Loan Scheme 2 Dashboard</h1>
-        <!-- Add more content as needed -->
+    <div id="content" class="scrollable-content">
+    <div class="navigation-box">
+        <h2>Instructions</h2>
+        <!-- Instructions -->
+    <ul>
+        <li><strong>Period Assign:</strong> Assign periods for loan schemes, allowing users to specify the duration of loan availability.</li>
+        <li><strong>Common Reference:</strong> Access a common reference section containing essential information and documents related to loan schemes.</li>
+        <li><strong>Search:</strong> Search for specific records, such as loan registrations, using various search criteria.</li>
+        <li><strong>Report:</strong> Generate reports and summaries based on loan scheme data for analysis and decision-making.</li>
+        <li><strong>Loan Disbursement:</strong> View and manage loan disbursement records.</li>
+        <li><strong>Loan Disbursement Semi-Annual:</strong> Access semi-annual disbursement reports for a broader overview of loan distribution.</li>
+        <li><strong>Database Maintenance:</strong> Perform maintenance tasks to ensure the database's integrity and performance.</li>
+    </ul>
+    
+    <!-- Subtabs under Report -->
+    <!-- <p>Under the <strong>Report</strong> tab, you can further explore the following options:</p>
+    <ul>
+        <li><strong>Loan Disbursement Monthly:</strong> View monthly disbursement reports detailing the distribution of loans over time.</li>
+        <li><strong>Loan Disbursement Semi-Annual:</strong> Access semi-annual disbursement reports for a broader overview of loan distribution.</li>
+        <li><strong>Database Maintenance:</strong> Perform maintenance tasks to ensure the database's integrity and performance.</li>
+    </ul> -->
+
+        <h2>Loan Schemes</h2>
+        <!-- Links To Loan Schemes -->
+        <div class="button-container">
+            <button onclick="window.location.href='../L02/LoanScheme2.php'">Sonduru Piyasa
+            </button>
+            <button onclick="window.location.href='../L03/LoanScheme3.php'">Govi Navoda
+            </button>
+            <button onclick="window.location.href='../L04/LoanScheme4.php'">Riya Shakthi
+            </button>
+            <button onclick="window.location.href='../L05/LoanScheme5.php'">Ran Aswenna
+            </button>
+            <button onclick="window.location.href='../L06/LoanScheme6.php'">Jaya Isura
+        </button>
+            </button>
+            <button onclick="window.location.href='../L07/LoanScheme7.php'">Rivi Bala Savi
+        </button>
+            <button onclick="window.location.href='../L08/LoanScheme8.php'">Diri Saviya
+            </button>
+            <button onclick="window.location.href='../L09/LoanScheme9.php'">Madya Aruna
+        </button>
+            <button onclick="window.location.href='../L10/LoanScheme10.php'">Green loan
+            </button>
+            <button onclick="window.location.href='../L11/LoanScheme11.php'">Home Sweet Home
+        </button>
+            <button onclick="window.location.href='../L12/LoanScheme12.php'">Sihina Maligaya
+            </button>
+            <button onclick="window.location.href='../L13/LoanScheme13.php'">Rekawaranaya
+        </button>
+            <button onclick="window.location.href='../L14/LoanScheme14.php'">Mini Taxi
+            </button>
+            <button onclick="window.location.href='../L15/LoanScheme15.php'">Sigithi Pasala
+        </button>
+            <button onclick="window.location.href='../L16/LoanScheme16.php'">Working capitol
+            </button>
+            <button onclick="window.location.href='../L17/LoanScheme17.php'">City Ride
+        </button>
+            <button onclick="window.location.href='../L18/LoanScheme18.php'">My Future
+        </button>
+        </div>
+    </div>
     </div>
 
     <!-- Footer -->
