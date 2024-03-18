@@ -27,12 +27,20 @@
                     <li><a href="#" onclick="loadContent('Approve1.php')">Approve1</a></li>
 <li><a href="#" onclick="loadContent('Approve1.php')">Approve2</a></li>
 <li><a href="#" onclick="loadContent('Approve1.php')">View Approved</a></li>
+                    </ul>
+                </li>
+<li class="has-submenu">
+                    <a href="#">Reference</a>
+                    <ul class="submenu">
+                    <li><a href="#" onclick="loadContent('ref_statusofapplicant.php')">Status of Applicant</a></li>
+<li><a href="#" onclick="loadContent('ref_loantype.php')">Loan Type</a></li>
+<li><a href="#" onclick="loadContent('ref_security.php')">Security</a></li>
 
 
 
                     </ul>
                 </li>
-                <li><a href="#" onclick="loadContent('UploadExcel.php')">Reference</a></li>
+                <!-- <li><a href="#" onclick="loadContent('reference.php')">Reference</a></li> -->
                 <li><a href="#" onclick="loadContent('LoanScheme3.php')">Registration</a></li>
                 <li><a href="#" onclick="loadContent('UploadExcel.php')">Daily Uploading Report</a></li>
 
