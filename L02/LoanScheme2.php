@@ -19,16 +19,16 @@
         <div class="navbar" id="navbar">
             <ul>
                 <li><a href="../ApplicationConsole.php">Home</a></li>
-                <li><a href="#" onclick="loadContent('Approve1.php')">Approve 1</a></li>
-                <li><a href="#"onclick="loadContent('Approve2.php')">Approve 2</a></li>
-                <li><a href="#"onclick="loadContent('ViewApproved.php')">View Approved</a></li>
-                <li><a href="#" onclick="loadContent('DailyUploadingReport.php')">Daily Uploading Report</a></li>
+                <li><a href="#" onclick="loadContent('L2Approve1.php')">Approve 1</a></li>
+                <li><a href="#"onclick="loadContent('L2Approve2.php')">Approve 2</a></li>
+                <li><a href="#"onclick="loadContent('L2Approved.php')">View Approved</a></li>
+                <li><a href="#" onclick="loadContent('L2DUReport.php')">Daily Uploading Report</a></li>
                 <li><a href="#" onclick="loadContent('L2RegForm.php')">Registration Form</a></li>
                 <li class="has-submenu">
                     <a href="#">Reference</a>
                     <ul class="submenu">
-                        <li><a href="#" onclick="loadContent('Criteria.php')">Criteria</a></li>
-                        <li><a href="#" onclick="loadContent('Security.php')">Security</a></li>
+                        <li><a href="#" onclick="loadContent('L2Ref_Criteria.php')">Criteria</a></li>
+                        <li><a href="#" onclick="loadContent('L2Ref_Sec.php')">Security</a></li>
                     </ul>
                 </li>
             </ul>
