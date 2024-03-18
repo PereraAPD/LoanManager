@@ -95,21 +95,23 @@ footer {
 
 }
 .navbar {
-    display: flex;
-    flex-direction: column;
+    display: block;
+    /* flex-direction: column; */
     background-color: #811313;
-    align-items: center;
+    /* align-items: center; */
+    overflow: auto;
 }
 
 .navbar ul {
     list-style: none;
-    padding: 0;
+    /* padding: 0; */
     margin: 0;
     display: flex;
 }
 
 .navbar li {
     margin: 0;
+    padding:5px 0px 0px 0px;
 }
 
 .navbar a {

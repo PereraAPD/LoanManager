@@ -18,7 +18,9 @@
         </div>
         <div class="navbar" id="navbar">
             <ul>
-                <li><a href="../ApplicationConsole.php">Home</a></li>
+                <li>
+                </li>
+                <li><a href="../ApplicationConsole.php"><i class="fas fa-home"></i>Home</a></li>
                 <li class="has-submenu">
                     <a href="#">Approve</a>
                     <ul class="submenu">
@@ -45,28 +47,32 @@
     <div class="navigation-box">
         <h2>Instructions</h2>
         <!-- Instructions -->
-    <ul>
-        <li><strong>Period Assign:</strong> Assign periods for loan schemes, allowing users to specify the duration of loan availability.</li>
-        <li><strong>Common Reference:</strong> Access a common reference section containing essential information and documents related to loan schemes.</li>
-        <li><strong>Search:</strong> Search for specific records, such as loan registrations, using various search criteria.</li>
-        <li><strong>Report:</strong> Generate reports and summaries based on loan scheme data for analysis and decision-making.</li>
-        <li><strong>Loan Disbursement:</strong> View and manage loan disbursement records.</li>
-        <li><strong>Loan Disbursement Semi-Annual:</strong> Access semi-annual disbursement reports for a broader overview of loan distribution.</li>
-        <li><strong>Database Maintenance:</strong> Perform maintenance tasks to ensure the database's integrity and performance.</li>
-    </ul>
-    
-    <!-- Subtabs under Report -->
-    <!-- <p>Under the <strong>Report</strong> tab, you can further explore the following options:</p>
-    <ul>
-        <li><strong>Loan Disbursement Monthly:</strong> View monthly disbursement reports detailing the distribution of loans over time.</li>
-        <li><strong>Loan Disbursement Semi-Annual:</strong> Access semi-annual disbursement reports for a broader overview of loan distribution.</li>
-        <li><strong>Database Maintenance:</strong> Perform maintenance tasks to ensure the database's integrity and performance.</li>
-    </ul> -->
+        <ul>
+    <li><strong>Approve:</strong> Approve loan records for different stages, including initial approval, secondary approval, and final approval.</li>
+    <li><strong>Daily Uploading Report:</strong> Access daily reports detailing the documents uploaded for loan processing.</li>
+    <li><strong>Registration Form:</strong> Fill out and submit the registration form to record loan details for Loan Scheme 2.</li>
+    <li><strong>Reference:</strong> Access reference information and manage criteria and security settings for the registration form.</li>
+</ul>
+
+<!-- Subtabs under Approve -->
+<p>Under the <strong>Approve</strong> tab, you can further explore the following options:</p>
+<ul>
+    <li><strong>Approve 1:</strong> Initial approval stage for loan records.</li>
+    <li><strong>Approve 2:</strong> Secondary approval stage for loan records.</li>
+    <li><strong>Approved:</strong> View final approved loan records.</li>
+</ul>
+
+<!-- Subtabs under Reference -->
+<p>Under the <strong>Reference</strong> tab, you can further explore the following options:</p>
+<ul>
+    <li><strong>Criteria:</strong> Manage criteria options available in the registration form.</li>
+    <li><strong>Security:</strong> Manage security settings for accessing and submitting loan records.</li>
+</ul>
 
         <h2>Loan Schemes</h2>
         <!-- Links To Loan Schemes -->
         <div class="button-container">
-            <button onclick="window.location.href='../L02/LoanScheme2.php'">Sonduru Piyasa
+            <button onclick="window.location.href='../L01/LoanScheme1.php'">General
             </button>
             <button onclick="window.location.href='../L03/LoanScheme3.php'">Govi Navoda
             </button>
@@ -74,33 +80,7 @@
             </button>
             <button onclick="window.location.href='../L05/LoanScheme5.php'">Ran Aswenna
             </button>
-            <button onclick="window.location.href='../L06/LoanScheme6.php'">Jaya Isura
-        </button>
-            </button>
-            <button onclick="window.location.href='../L07/LoanScheme7.php'">Rivi Bala Savi
-        </button>
-            <button onclick="window.location.href='../L08/LoanScheme8.php'">Diri Saviya
-            </button>
-            <button onclick="window.location.href='../L09/LoanScheme9.php'">Madya Aruna
-        </button>
-            <button onclick="window.location.href='../L10/LoanScheme10.php'">Green loan
-            </button>
-            <button onclick="window.location.href='../L11/LoanScheme11.php'">Home Sweet Home
-        </button>
-            <button onclick="window.location.href='../L12/LoanScheme12.php'">Sihina Maligaya
-            </button>
-            <button onclick="window.location.href='../L13/LoanScheme13.php'">Rekawaranaya
-        </button>
-            <button onclick="window.location.href='../L14/LoanScheme14.php'">Mini Taxi
-            </button>
-            <button onclick="window.location.href='../L15/LoanScheme15.php'">Sigithi Pasala
-        </button>
-            <button onclick="window.location.href='../L16/LoanScheme16.php'">Working capitol
-            </button>
-            <button onclick="window.location.href='../L17/LoanScheme17.php'">City Ride
-        </button>
-            <button onclick="window.location.href='../L18/LoanScheme18.php'">My Future
-        </button>
+            <button onclick="window.location.href='../L06/LoanScheme6.php'">Jaya Isura</button>
         </div>
     </div>
     </div>
