@@ -64,7 +64,7 @@
             <i class="fas fa-building"></i><span>Home Sweet Home</span>
         </a>
         <a href="L12/LoanScheme12.php">
-            <i class="fas fa-home"></i>
+            <i class="fas fa-house-user"></i>
             <span>Sihina Maligaya</span>
         </a>
         <a href="L13/LoanScheme13.php">
