@@ -19,54 +19,54 @@
         <div class="navbar" id="navbar">
             <ul>
                 <li><a href="../ApplicationConsole.php"><i class="fas fa-home"></i>Home</a></li>
-                <li><a href="#" onclick="loadContent('AssignPeriodUI.php')">Period Assign</a></li>
+                <li><a href="#" onclick="loadContent('L1_AssignPeriod.php')">Period Assign</a></li>
                 <li class="has-submenu">
                     <a href="#">Common Reference</a>
                 <ul class="submenu">
-                    <li><a href="#" onclick="loadContent('Bank.php')">Bank</a></li>
-                    <li><a href="#" onclick="loadContent('Branch.php')">Branch</a></li>
-                    <li><a href="#" onclick="loadContent('District.php')">District</a></li>
-                    <li><a href="#" onclick="loadContent('Division.php')">Division</a></li>
+                    <li><a href="#" onclick="loadContent('L1Ref_Bank.php')">Bank</a></li>
+                    <li><a href="#" onclick="loadContent('L1Ref_Branch.php')">Branch</a></li>
+                    <li><a href="#" onclick="loadContent('L1Ref_District.php')">District</a></li>
+                    <li><a href="#" onclick="loadContent('L1Ref_Division.php')">Division</a></li>
                 </ul>
                 </li>
-                <li><a href="#"onclick="loadContent('SearchUI.php')">Search</a></li>
+                <li><a href="#"onclick="loadContent('L1_Search.php')">Search</a></li>
                 <li class="has-submenu">
                     <a href="#">Report</a>
                     <ul class="submenu">
-                    <li><a href="#" onclick="loadContent('DailyUploadingReport.php')">Daily Uploading Report</a></li>
-<li><a href="#" onclick="loadContent('BankWiseReport.php')">Bank Wise Registered Loan</a></li>
-<li><a href="#" onclick="loadContent('ProvinceWiseRegistration.php')">Province Wise Registration</a></li>
-<li><a href="#" onclick="loadContent('DistrictWiseRegistration.php')">District Wise Registration</a></li>
-<li><a href="#" onclick="loadContent('DsDivisionWiseRegistration.php')">DS Division Wise Registration</a></li>
-<li><a href="#" onclick="loadContent('SectorWiseRegistration.php')">Sector Wise Registration</a></li>
-<li><a href="#" onclick="loadContent('GenderWiseRegistration.php')">Gender Wise Registration</a></li>
-<li><a href="#" onclick="loadContent('FieldVisitReport.php')">Field Visit Report</a></li>
-<li><a href="#" onclick="loadContent('AssignPeriodUI.php')">Period Assign</a></li>
+                    <li><a href="#" onclick="loadContent('L1Report_DU.php')">Daily Uploading Report</a></li>
+<li><a href="#" onclick="loadContent('L1Report_BankReg.php')">Bank Wise Registered Loan</a></li>
+<li><a href="#" onclick="loadContent('L1Report_ProvinceReg.php')">Province Wise Registration</a></li>
+<li><a href="#" onclick="loadContent('L1Report_DistrictReg.php')">District Wise Registration</a></li>
+<li><a href="#" onclick="loadContent('L1Report_DivisionReg.php')">DS Division Wise Registration</a></li>
+<li><a href="#" onclick="loadContent('L1Report_SectorReg.php')">Sector Wise Registration</a></li>
+<li><a href="#" onclick="loadContent('L1Report_GenderReg.php')">Gender Wise Registration</a></li>
+<li><a href="#" onclick="loadContent('L1Report_FieldVisit.php')">Field Visit Report</a></li>
+<li><a href="#" onclick="loadContent('L1_AssignPeriod.php')">Period Assign</a></li>
                     </ul>
                 </li>
                 <li class="has-submenu">
                     <a href="#">Loan Disbursement - Monthly</a>
                     <ul class="submenu">
-                        <li><a href="#" onclick="loadContent('UploadExcel.php')">Upload Excel</a></li>
-                        <li><a href="#" onclick="loadContent('ProcessExcel.php')">Process Excel</a></li>
-                        <li><a href="#" onclick="loadContent('CustomerLedger.php')">Customer Ledger</a></li>
-                        <li><a href="#" onclick="loadContent('InterestSubsidy.php')">Interest Subsidy</a></li>
+                        <li><a href="#" onclick="loadContent('L1_MonthlyUploadExcel.php')">Upload Excel</a></li>
+                        <li><a href="#" onclick="loadContent('L1_MonthlyProcessExcel.php')">Process Excel</a></li>
+                        <li><a href="#" onclick="loadContent('L1_MonthlyCusLeg.php')">Customer Ledger</a></li>
+                        <li><a href="#" onclick="loadContent('L1_MonthlyIntSub.php')">Interest Subsidy</a></li>
                     </ul>
                 </li>
                 <li class="has-submenu">
                     <a href="#">Loan Disbursement - Semi-Annual</a>
                     <ul class="submenu">
-                        <li><a href="#" onclick="loadContent('UploadExcelAnnual.php')">Upload Excel</a></li>
-                        <li><a href="#" onclick="loadContent('ProcessExcelAnnual.php')">Process Excel</a></li>
-                        <li><a href="#" onclick="loadContent('InterestSubsidyAnnual.php')">Interest Subsidy Report</a></li>
+                        <li><a href="#" onclick="loadContent('L1_AnnualUploadExcel.php')">Upload Excel</a></li>
+                        <li><a href="#" onclick="loadContent('L1_AnnualProcessExcel.php')">Process Excel</a></li>
+                        <li><a href="#" onclick="loadContent('L1_Annual_IntSub.php')">Interest Subsidy Report</a></li>
                     </ul>
                 </li>
                 <li class="has-submenu">
                     <a href="#">Database Maintenance</a>
                     <ul class="submenu">
-                        <li><a href="#" onclick="loadContent('DeleteAllDataProjectWise.php')">Delete All Data Project Wise</a></li>
-                        <li><a href="#" onclick="loadContent('BackupDatabase.php')">Backup Database</a></li>
-                        <li><a href="#" onclick="loadContent('ConditionOfRate.php')">Condition of Rate</a></li>
+                        <li><a href="#" onclick="loadContent('L1DB_Delete.php')">Delete All Data Project Wise</a></li>
+                        <li><a href="#" onclick="loadContent('L1DB_BackupDB.php')">Backup Database</a></li>
+                        <li><a href="#" onclick="loadContent('L1DB_ConRate.php')">Condition of Rate</a></li>
                     </ul>
                 </li>
             </ul>
