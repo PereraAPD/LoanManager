@@ -36,7 +36,7 @@
     </header>
 
     <!-- Content goes here -->
-    <div id="content">
+    <div id="content" class="scrollable-content">
         <!-- Add your content here -->
         <h1>Welcome to Loan Scheme 2 Dashboard</h1>
         <!-- Add more content as needed -->
