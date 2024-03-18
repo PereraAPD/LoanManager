@@ -1,5 +1,3 @@
-
-// script.js
 // Function to load content into the content div
 function loadContent(file) {
     // Perform AJAX request or load content in another way
@@ -83,52 +81,4 @@ function performSearch(nic) {
                     </table>`;
 
     return results;
-}
-
-// Function to add applicant details to the grid
-function addApplicant() {
-    const form = document.getElementById('registrationForm');
-    const grid = document.getElementById('applicantGrid');
-    
-    // Create a new row in the grid
-    const newRow = document.createElement('div');
-    newRow.classList.add('applicant-row');
-    
-    // Extract applicant details from the form
-    const name = form.elements['applicantName'].value;
-    const gender = form.elements['applicantGender'].value;
-    const address = form.elements['applicantAddress'].value;
-    const contact = form.elements['applicantContact'].value;
-    const nic = form.elements['applicantNIC'].value;
-    const age = form.elements['applicantAge'].value;
-    
-    // Create HTML content for the new row
-    newRow.innerHTML = `
-        <div>Name: ${name}</div>
-        <div>Gender: ${gender}</div>
-        <div>Address: ${address}</div>
-        <div>Contact: ${contact}</div>
-        <div>NIC: ${nic}</div>
-        <div>Age: ${age}</div>
-        <button onclick="editApplicant(this)">Edit</button>
-        <button onclick="deleteApplicant(this)">Delete</button>
-    `;
-    
-    // Append the new row to the grid
-    grid.appendChild(newRow);
-    
-    // Clear the form fields after adding applicant
-    clearForm();
-}
-
-// Function to clear the form fields
-function clearForm() {
-    const form = document.getElementById('registrationForm');
-    form.reset();
-}
-
-// Function to handle form submission (placeholder implementation)
-function submitForm() {
-    // Placeholder for form submission logic
-    alert('Form submitted successfully!');
 }
