@@ -6,8 +6,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Registration Form - Loan Scheme 2</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="AssignPeriod_style.css">
     <!-- Add other stylesheet links as needed -->
 </head>
 <body>
@@ -138,6 +136,5 @@
 
     
     <!-- Add your footer and other scripts if needed -->
-    <script src="L2RegForm.js"></script>
 </body>
 </html>

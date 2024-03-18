@@ -26,6 +26,5 @@
     </div>
 
     <!-- Add your footer and other scripts if needed -->
-    <script src="./scripts/L2Approve1.js"></script>
 </body>
 </html>
