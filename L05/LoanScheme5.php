@@ -19,7 +19,7 @@
         </div>
         <div class="navbar" id="navbar">
             <ul>
-                <li><a href="../ApplicationConsole.php">Home</a></li>
+            <li><a href="../ApplicationConsole.php"><i class="fas fa-home"></i>Home</a></li>
                 <li class="has-submenu">
                     <a href="#">Approve</a>
                     <ul class="submenu">
