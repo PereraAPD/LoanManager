@@ -57,6 +57,7 @@ button:hover {
 }
 
 table {
+    width: 100%;
     max-width: 600px;
     margin: 20px auto;
     background-color: #fff;
@@ -66,7 +67,7 @@ table {
 
 table, th, td {
     border-collapse: collapse;
-    width: 100%;
+    border:none;
 }
 
 th, td {
@@ -141,7 +142,7 @@ tbody tr:hover {
 }
 
 .button-container button:hover {
-    background-color: #d6c743;
+    background-color: #2a862e;
 }
 /* CSS animation for button container */
 @keyframes slideInFromBottom {
