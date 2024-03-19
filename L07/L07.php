@@ -29,6 +29,7 @@
                 </li>
                 <li><a href="#"onclick="loadContent('L7DUReport.php')">Daily Uploading Report</a></li>
                 <li><a href="#"onclick="loadContent('L7RegForm.php')">Registration</a></li>
+                <li><a href="#"onclick="loadContent('L7SolarSup.php')">Solar Supplier</a></li>
                 <li class="has-submenu">
                     <a href="#">Reference</a>
                     <ul class="submenu">
