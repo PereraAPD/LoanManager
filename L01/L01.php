@@ -98,40 +98,40 @@
         <h2>Loan Schemes</h2>
         <!-- Links To Loan Schemes -->
         <div class="button-container">
-            <button onclick="window.location.href='../L02/LoanScheme2.php'">Sonduru Piyasa
+            <button onclick="window.location.href='../L02/L02.php'">Sonduru Piyasa
             </button>
-            <button onclick="window.location.href='../L03/LoanScheme3.php'">Govi Navoda
+            <button onclick="window.location.href='../L03/L03.php'">Govi Navoda
             </button>
-            <button onclick="window.location.href='../L04/LoanScheme4.php'">Riya Shakthi
+            <button onclick="window.location.href='../L04/L04.php'">Riya Shakthi
             </button>
-            <button onclick="window.location.href='../L05/LoanScheme5.php'">Ran Aswenna
+            <button onclick="window.location.href='../L05/L05.php'">Ran Aswenna
             </button>
-            <button onclick="window.location.href='../L06/LoanScheme6.php'">Jaya Isura
+            <button onclick="window.location.href='../L06/L06.php'">Jaya Isura
         </button>
             </button>
-            <button onclick="window.location.href='../L07/LoanScheme7.php'">Rivi Bala Savi
+            <button onclick="window.location.href='../L07/L07.php'">Rivi Bala Savi
         </button>
-            <button onclick="window.location.href='../L08/LoanScheme8.php'">Diri Saviya
+            <button onclick="window.location.href='../L08/L08.php'">Diri Saviya
             </button>
-            <button onclick="window.location.href='../L09/LoanScheme9.php'">Madya Aruna
+            <button onclick="window.location.href='../L09/L09.php'">Madya Aruna
         </button>
-            <button onclick="window.location.href='../L10/LoanScheme10.php'">Green loan
+            <button onclick="window.location.href='../L10/L10.php'">Green loan
             </button>
-            <button onclick="window.location.href='../L11/LoanScheme11.php'">Home Sweet Home
+            <button onclick="window.location.href='../L11/L11.php'">Home Sweet Home
         </button>
-            <button onclick="window.location.href='../L12/LoanScheme12.php'">Sihina Maligaya
+            <button onclick="window.location.href='../L12/L12.php'">Sihina Maligaya
             </button>
-            <button onclick="window.location.href='../L13/LoanScheme13.php'">Rekawaranaya
+            <button onclick="window.location.href='../L13/L13.php'">Rekawaranaya
         </button>
-            <button onclick="window.location.href='../L14/LoanScheme14.php'">Mini Taxi
+            <button onclick="window.location.href='../L14/L14.php'">Mini Taxi
             </button>
-            <button onclick="window.location.href='../L15/LoanScheme15.php'">Sigithi Pasala
+            <button onclick="window.location.href='../L15/L15.php'">Sigithi Pasala
         </button>
-            <button onclick="window.location.href='../L16/LoanScheme16.php'">Working capitol
+            <button onclick="window.location.href='../L16/L16.php'">Working capitol
             </button>
-            <button onclick="window.location.href='../L17/LoanScheme17.php'">City Ride
+            <button onclick="window.location.href='../L17/L17.php'">City Ride
         </button>
-            <button onclick="window.location.href='../L18/LoanScheme18.php'">My Future
+            <button onclick="window.location.href='../L18/L18.php'">My Future
         </button>
         </div>
     </div>

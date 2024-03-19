@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Jaya Isura Dashboard</title>
+    <title>Rivi Bala Savi Dashboard</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="form_style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
@@ -14,7 +14,7 @@
     <!-- Header with Main Tab Items -->
     <header>
     <div class="title" id="title">
-            Jaya Isura Dashboard
+            Rivi Bala Savi Dashboard
         </div>
         <div class="navbar" id="navbar">
             <ul>
@@ -22,21 +22,18 @@
                 <li class="has-submenu">
                     <a href="#">Approve</a>
                     <ul class="submenu">
-<li><a href="#" onclick="loadContent('L6Approve1.php')">Approve 1</a></li>
-<li><a href="#" onclick="loadContent('L6Approve2.php')">Approve 2</a></li>
-<li><a href="#" onclick="loadContent('L6Approved.php')">Approved</a></li>
+<li><a href="#" onclick="loadContent('L7Approve1.php')">Approve 1</a></li>
+<li><a href="#" onclick="loadContent('L7Approve2.php')">Approve 2</a></li>
+<li><a href="#" onclick="loadContent('L7Approved.php')">Approved</a></li>
                     </ul>
                 </li>
-                <li><a href="#"onclick="loadContent('L6DUReport.php')">Daily Uploading Report</a></li>
-                <li><a href="#"onclick="loadContent('L6RegForm.php')">Registration</a></li>
+                <li><a href="#"onclick="loadContent('L7DUReport.php')">Daily Uploading Report</a></li>
+                <li><a href="#"onclick="loadContent('L7RegForm.php')">Registration</a></li>
                 <li class="has-submenu">
                     <a href="#">Reference</a>
                     <ul class="submenu">
-                        <li><a href="#" onclick="loadContent('L6Ref_SoA.php')">S.O.A.</a></li>
-                        <li><a href="#" onclick="loadContent('L6Ref_Sector.php')">Sector</a></li>
-                        <li><a href="#" onclick="loadContent('L6Ref_Sec.php')">Security</a></li>
-                        <li><a href="#" onclick="loadContent('L6Ref_LoanType.php')">Loan Type</a></li>
-                        <li><a href="#" onclick="loadContent('L6Ref_EEA.php')">E.E.A.</a></li>
+                        <li><a href="#" onclick="loadContent('L7Ref_LoanType.php')">Loan Type</a></li>
+                        <li><a href="#" onclick="loadContent('L7Ref_Sec.php')">Security</a></li>
                     </ul>
                 </li>
             </ul>
@@ -73,14 +70,14 @@
         <h2>Loan Schemes</h2>
         <!-- Links To Loan Schemes -->
         <div class="button-container">
-            <button onclick="window.location.href='../L01/LoanScheme1.php'">General
+            <button onclick="window.location.href='../L01/L01.php'">General
             </button>
-            <button onclick="window.location.href='../L04/LoanScheme4.php'">Riya Shakthi
+            <button onclick="window.location.href='../L05/L05.php'">Ran Aswenna
             </button>
-            <button onclick="window.location.href='../L05/LoanScheme5.php'">Ran Aswenna
+            <button onclick="window.location.href='../L06/L06.php'">Jaya Isura</button>
+            <button onclick="window.location.href='../L08/L08.php'">Diri Saviya
             </button>
-            <button onclick="window.location.href='../L07/LoanScheme7.php'">Rivi Bala Savi</button>
-            <button onclick="window.location.href='../L08/LoanScheme8.php'">Diri Saviya
+            <button onclick="window.location.href='../L09/L09.php'">Madya Aruna
             </button>
         </div>
     </div>

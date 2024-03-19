@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Green Loan Dashboard</title>
+    <title>City Ride Dashboard</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="form_style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
@@ -14,7 +14,7 @@
     <!-- Header with Main Tab Items -->
     <header>
     <div class="title" id="title">
-            Green Loan Dashboard
+            City Ride Dashboard
         </div>
         <div class="navbar" id="navbar">
             <ul>
@@ -96,18 +96,19 @@
         <h2>Loan Schemes</h2>
         <!-- Links To Loan Schemes -->
         <div class="button-container">
-        <button onclick="window.location.href='../L01/LoanScheme1.php'">General
+        <button onclick="window.location.href='../L01/L01.php'">General
             </button>
-            <button onclick="window.location.href='../L08/LoanScheme8.php'">Diri Saviya
+            <button onclick="window.location.href='../L14/L14.php'">Mini Taxi</button>
+            <button onclick="window.location.href='../L15/L15.php'">Sigithi Pasala
             </button>
-            <button onclick="window.location.href='../L09/LoanScheme9.php'">Madya Aruna
+            <button onclick="window.location.href='../L16/L16.php'">Working Capital
             </button>
-            <button onclick="window.location.href='../L11/LoanScheme11.php'">Home Sweet Home</button>
-            <button onclick="window.location.href='../L12/LoanScheme12.php'">Sihina Maligaya
+            <button onclick="window.location.href='../L18/L18.php'">My Future
             </button>
         </div>
     </div>
     </div>
+
     <!-- Footer -->
     <footer>
         <div class="footer-left">

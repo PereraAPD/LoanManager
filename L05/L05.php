@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Govi Navoda Dashboard</title>
+    <title>Ran Aswenna Dashboard</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="form_style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
@@ -11,10 +11,11 @@
     <script src="script.js"></script>
 </head>
 <body>
+
     <!-- Header with Main Tab Items -->
     <header>
     <div class="title" id="title">
-            Govi Navoda Dashboard
+            Ran Aswenna Dashboard
         </div>
         <div class="navbar" id="navbar">
             <ul>
@@ -22,21 +23,23 @@
                 <li class="has-submenu">
                     <a href="#">Approve</a>
                     <ul class="submenu">
-                    <li><a href="#" onclick="loadContent('L3Approve1.php')">Approve1</a></li>
-                    <li><a href="#" onclick="loadContent('L3Approve2.php')">Approve2</a></li>
-                    <li><a href="#" onclick="loadContent('L3Approved.php')">View Approved</a></li>
+<li><a href="#" onclick="loadContent('L5Approve1.php')">Approve 1</a></li>
+<li><a href="#" onclick="loadContent('L5Approve2.php')">Approve 2</a></li>
+<li><a href="#" onclick="loadContent('L5Approved.php')">Approved</a></li>
                     </ul>
                 </li>
-<li class="has-submenu">
+                <li><a href="#"onclick="loadContent('L5DUReport.php')">Daily Uploading Report</a></li>
+                <li><a href="#"onclick="loadContent('L5RegForm.php')">Registration</a></li>
+                <li class="has-submenu">
                     <a href="#">Reference</a>
                     <ul class="submenu">
-                    <li><a href="#" onclick="loadContent('ref_statusofapplicant.php')">Status of Applicant</a></li>
-<li><a href="#" onclick="loadContent('ref_loantype.php')">Loan Type</a></li>
-<li><a href="#" onclick="loadContent('ref_security.php')">Security</a></li>
+                        <li><a href="#" onclick="loadContent('L5Ref_SoA.php')">S.O.A.</a></li>
+                        <li><a href="#" onclick="loadContent('L5Ref_Sector.php')">Sector</a></li>
+                        <li><a href="#" onclick="loadContent('L5Ref_Sec.php')">Security</a></li>
+                        <li><a href="#" onclick="loadContent('L5Ref_LoanType.php')">Loan Type</a></li>
+                        <li><a href="#" onclick="loadContent('L5Ref_EEA.php')">E.E.A.</a></li>
                     </ul>
                 </li>
-                <li><a href="#" onclick="loadContent('L3RegForm.php')">Registration</a></li>
-                <li><a href="#" onclick="loadContent('L3DUReport.php')">Daily Uploading Report</a></li>
             </ul>
         </div>
     </header>
@@ -71,15 +74,15 @@
         <h2>Loan Schemes</h2>
         <!-- Links To Loan Schemes -->
         <div class="button-container">
-            <button onclick="window.location.href='../L01/LoanScheme1.php'">General
+            <button onclick="window.location.href='../L01/L01.php'">General
             </button>
-            <button onclick="window.location.href='../L02/LoanScheme2.php'">Sonduru Niwasa
+            <button onclick="window.location.href='../L03/L03.php'">Govi Navoda
             </button>
-            <button onclick="window.location.href='../L04/LoanScheme4.php'">Riya Shakthi
+            <button onclick="window.location.href='../L04/L04.php'">Riya Shakthi
             </button>
-            <button onclick="window.location.href='../L05/LoanScheme5.php'">Ran Aswenna
+            <button onclick="window.location.href='../L06/L06.php'">Jaya Isura</button>
+            <button onclick="window.location.href='../L07/L07.php'">Rivi Bala Savi
             </button>
-            <button onclick="window.location.href='../L06/LoanScheme6.php'">Jaya Isura</button>
         </div>
     </div>
     </div>

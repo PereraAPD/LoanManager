@@ -96,14 +96,14 @@
         <h2>Loan Schemes</h2>
         <!-- Links To Loan Schemes -->
         <div class="button-container">
-        <button onclick="window.location.href='../L01/LoanScheme1.php'">General
+        <button onclick="window.location.href='../L01/L01.php'">General
             </button>
-            <button onclick="window.location.href='../L06/LoanScheme6.php'">Jaya Isura</button>
-            <button onclick="window.location.href='../L07/LoanScheme7.php'">Rivi Bala Savi
+            <button onclick="window.location.href='../L06/L06.php'">Jaya Isura</button>
+            <button onclick="window.location.href='../L07/L07.php'">Rivi Bala Savi
             </button>
-            <button onclick="window.location.href='../L09/LoanScheme9.php'">Madya Aruna
+            <button onclick="window.location.href='../L09/L09.php'">Madya Aruna
             </button>
-            <button onclick="window.location.href='../L10/LoanScheme10.php'">Green Loan
+            <button onclick="window.location.href='../L10/L10.php'">Green Loan
             </button>
         </div>
     </div>

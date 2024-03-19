@@ -3,38 +3,39 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Riya Shakthi Dashboard</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="form_style.css">
-    <link rel="stylesheet" href="AddNewStyle.css">
+    <title>Sonduru Niwasa Dashboard</title>
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="./styles/form_style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
-    <script src="script.js"></script>
+    
 </head>
 <body>
     <!-- Header with Main Tab Items -->
     <header>
     <div class="title" id="title">
-            Riya Shakthi Dashboard
+            Sonduru Piyasa Dashboard
         </div>
         <div class="navbar" id="navbar">
             <ul>
-            <li><a href="../ApplicationConsole.php"><i class="fas fa-home"></i>Home</a></li>
+                <li>
+                </li>
+                <li><a href="../ApplicationConsole.php"><i class="fas fa-home"></i>Home</a></li>
                 <li class="has-submenu">
                     <a href="#">Approve</a>
                     <ul class="submenu">
-<li><a href="#" onclick="loadContent('L4Approve1.php')">Approve 1</a></li>
-<li><a href="#" onclick="loadContent('L4Approve2.php')">Approve 2</a></li>
-<li><a href="#" onclick="loadContent('L4Approved.php')">Approved</a></li>
+                    <li><a href="#" onclick="loadContent('L2Approve1.php')">Approve 1</a></li>
+                <li><a href="#"onclick="loadContent('L2Approve2.php')">Approve 2</a></li>
+                <li><a href="#"onclick="loadContent('L2Approved.php')">View Approved</a></li>
                     </ul>
                 </li>
-                <li><a href="#"onclick="loadContent('L4DUReport.php')">Daily Uploading Report</a></li>
-                <li><a href="#"onclick="loadContent('L4RegForm.php')">Registration</a></li>
+                <li><a href="#" onclick="loadContent('L2DUReport.php')">Daily Uploading Report</a></li>
+                <li><a href="#" onclick="loadContent('L2RegForm.php')">Registration Form</a></li>
                 <li class="has-submenu">
                     <a href="#">Reference</a>
                     <ul class="submenu">
-                        <li><a href="#" onclick="loadContent('L4Ref_TGC.php')">Target Group Category</a></li>
-                        <li><a href="#" onclick="loadContent('L4Ref_Sec.php')">Security</a></li>
+                        <li><a href="#" onclick="loadContent('L2Ref_Criteria.php')">Criteria</a></li>
+                        <li><a href="#" onclick="loadContent('L2Ref_Sec.php')">Security</a></li>
                     </ul>
                 </li>
             </ul>
@@ -71,15 +72,15 @@
         <h2>Loan Schemes</h2>
         <!-- Links To Loan Schemes -->
         <div class="button-container">
-            <button onclick="window.location.href='../L01/LoanScheme1.php'">General
+            <button onclick="window.location.href='../L01/L01.php'">General
             </button>
-            <button onclick="window.location.href='../L02/LoanScheme2.php'">Sonduru Niwasa
+            <button onclick="window.location.href='../L03/L03.php'">Govi Navoda
             </button>
-            <button onclick="window.location.href='../L03/LoanScheme3.php'">Govi Navoda
+            <button onclick="window.location.href='../L04/L04.php'">Riya Shakthi
             </button>
-            <button onclick="window.location.href='../L05/LoanScheme5.php'">Ran Aswenna
+            <button onclick="window.location.href='../L05/L05.php'">Ran Aswenna
             </button>
-            <button onclick="window.location.href='../L06/LoanScheme6.php'">Jaya Isura</button>
+            <button onclick="window.location.href='../L06/L06.php'">Jaya Isura</button>
         </div>
     </div>
     </div>
@@ -99,6 +100,14 @@
             <p>&copy; 2024 Loan Management System. All rights reserved.</p>
         </div>
     </footer>
-
+<script src="./scripts/script.js"></script>
+<script src='./scripts/L2Approve1.js'></script>
+<script src="./scripts/L2Approve2.js"></script>
+<script src="./scripts/L2Approved.js"></script>
+<script src="./scripts/L2DUReport.js"></script>
+<script src="./scripts/L2Ref_Criteria.js"></script>
+<script src="./scripts/L2Ref-Sec.js"></script>
+<script src="./scripts/L2RegForm.js"></script>
+<script src="./scripts/ContentLoader.js"></script>
 </body>
 </html>
