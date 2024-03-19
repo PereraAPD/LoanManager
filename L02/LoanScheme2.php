@@ -4,11 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Loan Scheme 2 - Dashboard</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="form_style.css">
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="./styles/form_style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
-    <script src="script.js"></script>
+    
 </head>
 <body>
     <!-- Header with Main Tab Items -->
@@ -100,6 +100,14 @@
             <p>&copy; 2024 Loan Management System. All rights reserved.</p>
         </div>
     </footer>
-
+<script src="./scripts/script.js"></script>
+<script src='./scripts/L2Approve1.js'></script>
+<script src="./scripts/L2Approve2.js"></script>
+<script src="./scripts/L2Approved.js"></script>
+<script src="./scripts/L2DUReport.js"></script>
+<script src="./scripts/L2Ref_Criteria.js"></script>
+<script src="./scripts/L2Ref-Sec.js"></script>
+<script src="./scripts/L2RegForm.js"></script>
+<script src="./scripts/ContentLoader.js"></script>
 </body>
 </html>

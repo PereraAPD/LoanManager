@@ -6,7 +6,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Security - Loan Scheme 2</title>
-    <link rel="stylesheet" href="style.css">
     <!-- Add other stylesheet links as needed -->
 </head>
 <body>
@@ -48,23 +47,5 @@
     </table>
 
     <!-- Add your footer and other scripts if needed -->
-
-    <script>
-        function addNewSecurity() {
-            // Implement logic to add/new security records
-            alert('Adding/New Security...');
-        }
-
-        function deleteSecurity(securityId) {
-            // Implement logic to delete security record with the specified ID
-            alert('Deleting Security ' + securityId + '...');
-        }
-
-        function modifySecurity(securityId) {
-            // Implement logic to modify security record with the specified ID
-            alert('Modifying Security ' + securityId + '...');
-        }
-    </script>
-
 </body>
 </html>

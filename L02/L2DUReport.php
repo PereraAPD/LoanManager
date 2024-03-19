@@ -6,7 +6,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Daily Uploading Report - Loan Scheme 2</title>
-    <link rel="stylesheet" href="style.css">
     <!-- Add other stylesheet links as needed -->
 </head>
 <body>
@@ -36,18 +35,5 @@
     </form>
 
     <!-- Add your footer and other scripts if needed -->
-
-    <script>
-        function printLetter() {
-            // Implement logic to print letter
-            alert('Printing Letter...');
-        }
-
-        function printAttachment() {
-            // Implement logic to print attachment
-            alert('Printing Attachment...');
-        }
-    </script>
-
 </body>
 </html>

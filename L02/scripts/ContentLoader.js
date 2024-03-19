@@ -1,3 +1,4 @@
+
 // Function to load content into the content div
 function loadContent(file) {
     // Perform AJAX request or load content in another way
@@ -45,40 +46,40 @@ window.onload = function () {
     }
 };
 
-// script.js loan search function
+// // script.js loan search function
 
-function searchLoans() {
-    const nic = document.getElementById('nic').value;
+// function searchLoans() {
+//     const nic = document.getElementById('nic').value;
 
-    // Perform AJAX request or any other method to search for loans based on the NIC
-    // Replace the following line with your actual search logic
-    const searchResults = performSearch(nic);
+//     // Perform AJAX request or any other method to search for loans based on the NIC
+//     // Replace the following line with your actual search logic
+//     const searchResults = performSearch(nic);
 
-    // Display the search results in the 'searchResults' div
-    document.getElementById('searchResults').innerHTML = searchResults;
-}
+//     // Display the search results in the 'searchResults' div
+//     document.getElementById('searchResults').innerHTML = searchResults;
+// }
 
-// Example function to simulate a search (replace with your actual search logic)
-function performSearch(nic) {
-    // Simulating search results for demonstration purposes
-    const results = `<p>Search results for NIC: ${nic}</p>
-                     <table>
-                        <!-- Your table structure for displaying loan records -->
-                        <thead>
-                            <tr>
-                                <th>Loan ID</th>
-                                <th>Amount</th>
-                                <!-- Add more columns as needed -->
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <td>1</td>
-                                <td>5000</td>
-                                <!-- Add more rows as needed -->
-                            </tr>
-                        </tbody>
-                    </table>`;
+// // Example function to simulate a search (replace with your actual search logic)
+// function performSearch(nic) {
+//     // Simulating search results for demonstration purposes
+//     const results = `<p>Search results for NIC: ${nic}</p>
+//                      <table>
+//                         <!-- Your table structure for displaying loan records -->
+//                         <thead>
+//                             <tr>
+//                                 <th>Loan ID</th>
+//                                 <th>Amount</th>
+//                                 <!-- Add more columns as needed -->
+//                             </tr>
+//                         </thead>
+//                         <tbody>
+//                             <tr>
+//                                 <td>1</td>
+//                                 <td>5000</td>
+//                                 <!-- Add more rows as needed -->
+//                             </tr>
+//                         </tbody>
+//                     </table>`;
 
-    return results;
-}
+//     return results;
+// }
