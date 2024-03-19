@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Loan Scheme 1 - Dashboard</title>
+    <title>Rivi Bala Savi Dashboard</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="form_style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
@@ -18,48 +18,25 @@
         </div>
         <div class="navbar" id="navbar">
             <ul>
-                <li><a href="../ApplicationConsole.php">Home</a></li>
-                <li><a href="#" onclick="loadContent('AssignPeriodUI.php')">Period Assign</a></li>
-                <li><a href="#"onclick="loadContent('Bank.php')">Common Reference</a></li>
-                <li><a href="#"onclick="loadContent('SearchUI.php')">Search</a></li>
+            <li><a href="../ApplicationConsole.php"><i class="fas fa-home"></i>Home</a></li>
                 <li class="has-submenu">
-                    <a href="#">Report</a>
+                    <a href="#">Approve</a>
                     <ul class="submenu">
-                    <li><a href="#" onclick="loadContent('DailyUploadingReport.php')">Daily Uploading Report</a></li>
-<li><a href="#" onclick="loadContent('BankWiseReport.php')">Bank Wise Registered Loan</a></li>
-<li><a href="#" onclick="loadContent('ProvinceWiseRegistration.php')">Province Wise Registration</a></li>
-<li><a href="#" onclick="loadContent('DistrictWiseRegistration.php')">District Wise Registration</a></li>
-<li><a href="#" onclick="loadContent('DsDivisionWiseRegistration.php')">DS Division Wise Registration</a></li>
-<li><a href="#" onclick="loadContent('SectorWiseRegistration.php')">Sector Wise Registration</a></li>
-<li><a href="#" onclick="loadContent('GenderWiseRegistration.php')">Gender Wise Registration</a></li>
-<li><a href="#" onclick="loadContent('FieldVisitReport.php')">Field Visit Report</a></li>
-<li><a href="#" onclick="loadContent('AssignPeriodUI.php')">Period Assign</a></li>
-
+<li><a href="#" onclick="loadContent('L6Approve1.php')">Approve 1</a></li>
+<li><a href="#" onclick="loadContent('L6Approve2.php')">Approve 2</a></li>
+<li><a href="#" onclick="loadContent('L6Approved.php')">Approved</a></li>
                     </ul>
                 </li>
+                <li><a href="#"onclick="loadContent('L6DUReport.php')">Daily Uploading Report</a></li>
+                <li><a href="#"onclick="loadContent('L6RegForm.php')">Registration</a></li>
                 <li class="has-submenu">
-                    <a href="#">Loan Disbursement - Monthly</a>
+                    <a href="#">Reference</a>
                     <ul class="submenu">
-                        <li><a href="#" onclick="loadContent('UploadExcel.php')">Upload Excel</a></li>
-                        <li><a href="#" onclick="loadContent('ProcessExcel.php')">Process Excel</a></li>
-                        <li><a href="#" onclick="loadContent('CustomerLedger.php')">Customer Ledger</a></li>
-                        <li><a href="#" onclick="loadContent('InterestSubsidy.php')">Interest Subsidy</a></li>
-                    </ul>
-                </li>
-                <li class="has-submenu">
-                    <a href="#">Loan Disbursement - Semi-Annual</a>
-                    <ul class="submenu">
-                        <li><a href="#" onclick="loadContent('UploadExcelAnnual.php')">Upload Excel</a></li>
-                        <li><a href="#" onclick="loadContent('ProcessExcelAnnual.php')">Process Excel</a></li>
-                        <li><a href="#" onclick="loadContent('InterestSubsidyAnnual.php')">Interest Subsidy Report</a></li>
-                    </ul>
-                </li>
-                <li class="has-submenu">
-                    <a href="#">Database Maintenance</a>
-                    <ul class="submenu">
-                        <li><a href="#" onclick="loadContent('DeleteAllDataProjectWise.php')">Delete All Data Project Wise</a></li>
-                        <li><a href="#" onclick="loadContent('BackupDatabase.php')">Backup Database</a></li>
-                        <li><a href="#" onclick="loadContent('ConditionOfRate.php')">Condition of Rate</a></li>
+                        <li><a href="#" onclick="loadContent('L6Ref_SoA.php')">S.O.A.</a></li>
+                        <li><a href="#" onclick="loadContent('L6Ref_Sector.php')">Sector</a></li>
+                        <li><a href="#" onclick="loadContent('L6Ref_Sec.php')">Security</a></li>
+                        <li><a href="#" onclick="loadContent('L6Ref_LoanType.php')">Loan Type</a></li>
+                        <li><a href="#" onclick="loadContent('L6Ref_EEA.php')">E.E.A.</a></li>
                     </ul>
                 </li>
             </ul>

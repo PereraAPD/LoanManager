@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Loan Scheme 1 - Dashboard</title>
+    <title>Sigithi Pasala Dashboard</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="form_style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
@@ -18,7 +18,7 @@
         </div>
         <div class="navbar" id="navbar">
             <ul>
-                <li><a href="../ApplicationConsole.php">Home</a></li>
+            <li><a href="../ApplicationConsole.php"><i class="fas fa-home"></i>Home</a></li>
                 <li><a href="#" onclick="loadContent('AssignPeriodUI.php')">Period Assign</a></li>
                 <li><a href="#"onclick="loadContent('Bank.php')">Common Reference</a></li>
                 <li><a href="#"onclick="loadContent('SearchUI.php')">Search</a></li>
@@ -101,7 +101,7 @@
             <button onclick="window.location.href='../L13/LoanScheme13.php'">Rekawaranaya
             </button>
             <button onclick="window.location.href='../L14/LoanScheme14.php'">Mini Taxi</button>
-            <button onclick="window.location.href='../L16/LoanScheme16.php'">Working Capitol
+            <button onclick="window.location.href='../L16/LoanScheme16.php'">Working Capital
             </button>
             <button onclick="window.location.href='../L17/LoanScheme17.php'">City Ride
             </button>

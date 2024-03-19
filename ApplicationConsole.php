@@ -81,7 +81,7 @@
         </a>
         <a href="L16/LoanScheme16.php">
             <i class="fas fa-users"></i>
-            <span>Working Capitol</span>
+            <span>Working Capital</span>
         </a>
         <a href="L17/LoanScheme17.php">
             <i class="fas fa-road"></i>
