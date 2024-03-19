@@ -6,7 +6,7 @@
     <title>Ran Aswanna Registration Form</title>
     <form method="post" action="L5RegForm.php">
     <!-- Include CSS files -->
-    <link rel="stylesheet" href="AddNewStyle.css">
+    <!-- <link rel="stylesheet" href="AddNewStyle.css"> -->
     <!-- Include any additional CSS files if needed -->
     <style>
         /* Add any additional CSS specific to this page */
