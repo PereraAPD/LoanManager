@@ -17,8 +17,7 @@ header {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    box-shadow: #ff1919;
-    scrollbar-gutter:stable;
+    z-index:1000;
 }
 .user-info {
     display: flex;
@@ -33,11 +32,20 @@ header {
 }
 
 #content {
-    margin-top: 50px;
+    margin-top: 55px;
     margin-left: 20px;
     padding: 20px;
     color: #333;
 }
+
+.scrollable-content {
+    overflow-y: auto; /* Enable vertical scrollbar */
+    max-height: calc(100vh - 135px); /* Adjust height as needed */
+}
+.scrollable-content::-webkit-scrollbar {
+    position: absolute;
+    right: 0;
+ }
 
 footer {
     width:100%;
@@ -52,6 +60,7 @@ footer {
     display: flex;
     justify-content: space-between;
     scrollbar-gutter:stable;
+    z-index:1000;
 }
 
 .footer-left {
@@ -86,15 +95,16 @@ footer {
 
 }
 .navbar {
-    display: flex;
-    flex-direction: column;
+    display: block;
+    /* flex-direction: column; */
     background-color: #811313;
-    align-items: center;
+    /* align-items: center; */
+    overflow: auto;
 }
 
 .navbar ul {
     list-style: none;
-    padding: 0;
+    /* padding: 0; */
     margin: 0;
     display: flex;
 }
