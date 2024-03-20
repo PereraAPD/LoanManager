@@ -91,7 +91,7 @@
             <i class="fas fa-graduation-cap"></i>
             <span>My Future</span>
         </a>
-        <a href="security.php">
+        <a href="Security/security.php">
             <i class="fas fa-shield-alt"></i> <span>Security</span>
         </a>
         <!-- Add other tabs if needed -->
