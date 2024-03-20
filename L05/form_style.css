@@ -7,9 +7,9 @@ body {
     padding: 0;
 }
 /* CSS for positioning form and table containers */
-.container {
+/* .container {
     display: flex;
-}
+} */
 
 .form-container,
 .table-container {
