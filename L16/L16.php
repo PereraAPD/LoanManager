@@ -24,21 +24,21 @@
                 <li class="has-submenu">
                     <a href="#">Approve</a>
                     <ul class="submenu">
-                    <li><a href="#" onclick="loadContent('L15Approve1.php')">Approve 1</a></li>
-                <li><a href="#"onclick="loadContent('L15Approve2.php')">Approve 2</a></li>
-                <li><a href="#"onclick="loadContent('L15Approved.php')">View Approved</a></li>
+                    <li><a href="#" onclick="loadContent('L16Approve1.php')">Approve 1</a></li>
+                <li><a href="#"onclick="loadContent('L16Approve2.php')">Approve 2</a></li>
+                <li><a href="#"onclick="loadContent('L16Approved.php')">View Approved</a></li>
                     </ul>
                 </li>
-                <li><a href="#" onclick="loadContent('L15DUReport.php')">Daily Uploading Report</a></li>
-                <li><a href="#" onclick="loadContent('L15RegForm.php')">Registration Form</a></li>
+                <li><a href="#" onclick="loadContent('L16DUReport.php')">Daily Uploading Report</a></li>
+                <li><a href="#" onclick="loadContent('L16RegForm.php')">Registration Form</a></li>
                 <li class="has-submenu">
                     <a href="#">Reference</a>
                     <ul class="submenu">
-                        <li><a href="#" onclick="loadContent('L15Ref_SOA.php')">Status of Applicant</a></li>
-                        <li><a href="#" onclick="loadContent('L15Ref_ElCriteria.php')">Eligibility Criteria</a></li>
-                        <li><a href="#" onclick="loadContent('L15Ref_Sec.php')">Security</a></li>
-                        <li><a href="#" onclick="loadContent('L15Ref_BusinessNature.php')">Nature of Business</a></li>
-                        <li><a href="#" onclick="loadContent('L15Ref_PSType.php')">Pre School Type</a></li>
+                        <li><a href="#" onclick="loadContent('L16Ref_BusinessReg.php')">Business Registrations</a></li>
+                        <li><a href="#" onclick="loadContent('L16Ref_OtherReg.php')">Other Registrations</a></li>
+                        <li><a href="#" onclick="loadContent('L16Ref_Sec.php')">Security</a></li>
+                        <li><a href="#" onclick="loadContent('L16Ref_BusinessType.php')">Business Type</a></li>
+                        <li><a href="#" onclick="loadContent('L16Ref_TargetGroup.php')">Target Group</a></li>
                     </ul>
                 </li>
             </ul>
