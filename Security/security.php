@@ -63,5 +63,6 @@
         </div>
     </footer>
     <script src="NewUserCreate.js"></script>
+    <script src="NewUserProcess.js"></script>
 </body>
 </html>
