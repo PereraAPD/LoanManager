@@ -13,7 +13,7 @@
         <div class="form-container">
 <!-- Bank Form -->
 
-<form action="add_bank.php" method="post">
+<form action="L1Ref_Add_Bank.php" method="post">
     <label for="bankName">Bank Name:</label>
     <input type="text" id="bankName" name="bankName" required>
 
@@ -45,8 +45,34 @@
         </tr>
     </thead>
     <tbody>
-        <!-- Fetch and display bank details from the database -->
-        <!-- Each row should have options for edit and delete -->
+    <tbody>
+    <?php
+    require 'db_connection.php';
+    // Fetch and display bank details from the database
+    $sql = "SELECT * FROM bankmasterfile";
+    $result = $conn->query($sql);
+
+    if ($result->num_rows > 0) {
+        while ($row = $result->fetch_assoc()) {
+            echo "<tr>";
+            echo "<td>" . $row["BankCode"] . "</td>";
+            echo "<td>" . $row["BankName"] . "</td>";
+            echo "<td>" . $row["BankShortName"] . "</td>";
+            echo "<td>" . $row["telephoneNo"] . "</td>";
+            echo "<td>" . $row["fax"] . "</td>";
+            echo "<td>";
+            echo "<a href='L1Ref_Edit_Bank.php?id=" . $row["BankCode"] . "'>Edit</a>";
+            echo " | ";
+            echo "<a href='L1Ref_Delete_Bank.php?id=" . $row["BankCode"] . "' onclick='return confirm(\"Are you sure?\");'>Delete</a>";
+            echo "</td>";
+            echo "</tr>";
+        }
+    } else {
+        echo "<tr><td colspan='6'>No banks found.</td></tr>";
+    }
+    ?>
+</tbody>
+
     </tbody>
 </table>
 </div>
