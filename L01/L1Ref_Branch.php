@@ -5,8 +5,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Common Reference - Dashboard</title>
-    <link rel="stylesheet" href="AssignPeriod_style.css">
+    <link rel="stylesheet" href="form_style.css">
     <!-- Add other stylesheet links as needed -->
+    <style>
+        .table-container {
+            max-height: 400px; /* Adjust the max height as needed */
+            overflow-y: auto; /* Enable vertical scrollbar */
+        }
+    </style>
 </head>
 <body>
 <!-- Bank Form -->
@@ -15,7 +21,7 @@
         <!-- Form container -->
         <div class="form-container">
 <!-- Branch Form -->
-<form action="add_branch.php" method="post">
+<form action="L1Ref_Add_Branch.php" method="post">
     <label for="bankName">Bank Name:</label>
     <select id="bank" name="bank" required>
     <option value="" disabled selected>Select Bank</option>
@@ -63,8 +69,32 @@
         </tr>
     </thead>
     <tbody>
-        <!-- Fetch and display branch details from the database -->
-        <!-- Each row should have options for edit and delete -->
+    <?php
+    require 'db_connection.php';
+    // Fetch and display branch details from the database
+    $sql = "SELECT b.*, bm.BankName, d.DistrictName FROM bankbranch b INNER JOIN bankmasterfile bm ON b.BankID = bm.BankID INNER JOIN district d ON b.District = d.ID";
+    $result = $conn->query($sql);
+
+    if ($result->num_rows > 0) {
+        while ($row = $result->fetch_assoc()) {
+            echo "<tr>";
+            echo "<td>" . $row["BankName"] . "</td>";
+            echo "<td>" . $row["Branchcode"] . "</td>";
+            echo "<td>" . $row["District"] . "</td>";
+            echo "<td>" . $row["BranchName"] . "</td>";
+            echo "<td>" . $row["Phone"] . "</td>";
+            echo "<td>" . $row["Fax"] . "</td>";
+            echo "<td>";
+            echo "<a href='L1Ref_Edit_Branch.php?id=" . $row["Branchcode"] . "'>Edit</a>";
+            echo " | ";
+            echo "<a href='L1Ref_Delete_Branch.php?id=" . $row["Branchcode"] . "' onclick='return confirm(\"Are you sure you want to delete this record?\");'>Delete</a>";
+            echo "</td>";
+            echo "</tr>";
+        }
+    } else {
+        echo "<tr><td colspan='7'>No branches found.</td></tr>";
+    }
+    ?>
     </tbody>
 </table>
 </div>
