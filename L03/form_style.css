@@ -8,7 +8,7 @@ body {
 }
 /* CSS for positioning form and table containers */
 .container {
-    display: flex;
+    /* display: flex ; */
 }
 
 .form-container,
