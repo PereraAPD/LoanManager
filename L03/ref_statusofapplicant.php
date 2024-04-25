@@ -1,3 +1,31 @@
+<?php
+// Database connection
+$servername = "localhost";
+$username = "root";
+$password = "";
+$dbname = "ministryoffinance";
+
+$conn = new mysqli($servername, $username, $password, $dbname);
+if ($conn->connect_error) {
+    die("Connection failed: " . $conn->connect_error);
+}
+
+// Add new applicant status
+if ($_SERVER["REQUEST_METHOD"] == "POST") {
+    if (isset($_POST['applicantStatus']) && !empty($_POST['applicantStatus'])) {
+        $applicantStatus = $_POST['applicantStatus'];
+        $sql = "INSERT INTO govinavapplicantstatus (ApplicantStatus) VALUES ('$applicantStatus')";
+        if ($conn->query($sql) === TRUE) {
+            echo "<script>alert('New status added successfully');</script>";
+        } else {
+            echo "Error: " . $sql . "<br>" . $conn->error;
+        }
+    } else {
+        echo "<script>alert('Please enter a valid applicant status');</script>";
+    }
+}
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -109,9 +137,11 @@
 
         <!-- Form for Status of Applicant -->
         <div class="form-container">
-            <input type="text" id="applicantStatus" placeholder="Applicant Status">
-            <button type="button" class="add-button" onclick="addStatus()">Add</button> <!-- Updated button -->
-            <button type="button" class="new-button" onclick="clearForm()">New</button> <!-- Updated button -->
+            <form id="statusForm" method="POST">
+                <input type="text" id="applicantStatus" name="applicantStatus" placeholder="Applicant Status">
+                <button type="submit" class="add-button">Add</button>
+                <button type="button" class="new-button" onclick="clearForm()">New</button>
+            </form>
         </div>
 
         <!-- Reference Grid -->
@@ -124,13 +154,20 @@
                 </tr>
             </thead>
             <tbody>
-                <!-- Grid rows will be dynamically populated -->
-                <!-- Example: -->
-                <!-- <tr>
-                    <td><a href="#" class="delete-btn">Delete</a></td>
-                    <td><a href="#" class="edit-btn">Edit</a></td>
-                    <td>Status 1</td>
-                </tr> -->
+                <?php
+                    // Populate table with existing data from the database
+                    $sql = "SELECT * FROM govinavapplicantstatus";
+                    $result = $conn->query($sql);
+                    if ($result->num_rows > 0) {
+                        while($row = $result->fetch_assoc()) {
+                            echo "<tr>";
+                            echo "<td><a href='#' class='delete-btn'>Delete</a></td>";
+                            echo "<td><a href='#' class='edit-btn'>Edit</a></td>";
+                            echo "<td>".$row['ApplicantStatus']."</td>";
+                            echo "</tr>";
+                        }
+                    }
+                ?>
             </tbody>
         </table>
     </div>
@@ -142,16 +179,10 @@
         // Add any specific JavaScript for this page
         // Example: Form submission, AJAX requests, etc.
         // Example functions:
-        function addStatus() {
-            // Add logic to add a new status
-        }
-
         function clearForm() {
-            // Add logic to clear the form fields
+            document.getElementById("statusForm").reset();
         }
     </script>
 </body>
 </html>
-
-
 
