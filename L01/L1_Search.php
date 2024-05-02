@@ -35,7 +35,7 @@
                     if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['submit'])) {
                         include 'db_connection.php';  // Ensure you have a file for db connection
                         $nic = $_POST['nic'];
-                        $query = "SELECT LCategoryID, LTime, LDate, TotalPaybal FROM customercapitallog WHERE NICNo = ?";
+                        $query = "SELECT LoanScheme, LoanRegistrationNo, DateOfRegistration, Amount FROM Loans WHERE NICNo = ?";
                         if ($stmt = $conn->prepare($query)) {
                             $stmt->bind_param("s", $nic);
                             $stmt->execute();
@@ -43,10 +43,10 @@
                             if ($result->num_rows > 0) {
                                 while ($row = $result->fetch_assoc()) {
                                     echo "<tr>";
-                                    echo "<td>" . $row['loan_scheme'] . "</td>";
-                                    echo "<td>" . $row['loan_registration_no'] . "</td>";
-                                    echo "<td>" . $row['date_of_registration'] . "</td>";
-                                    echo "<td>" . $row['amount'] . "</td>";
+                                    echo "<td>" . $row['LoanScheme'] . "</td>";
+                                    echo "<td>" . $row['LoanRegistrationNo'] . "</td>";
+                                    echo "<td>" . $row['DateOfRegistration'] . "</td>";
+                                    echo "<td>" . $row['Amount'] . "</td>";
                                     echo "</tr>";
                                 }
                             } else {
