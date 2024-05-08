@@ -7,12 +7,6 @@
     <title>Common Reference - Dashboard</title>
     <link rel="stylesheet" href="form_style.css">
     <!-- Add other stylesheet links as needed -->
-    <style>
-        .table-container {
-            max-height: 400px; /* Adjust the max height as needed */
-            overflow-y: auto; /* Enable vertical scrollbar */
-        }
-    </style>
 </head>
 <body>
 <!-- Bank Form -->

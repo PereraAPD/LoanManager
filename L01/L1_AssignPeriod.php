@@ -1,5 +1,4 @@
 <!-- AssignPeriodUI.php -->
-<!-- AssignPeriodUI.php -->
 
 <!DOCTYPE html>
 <html lang="en">
@@ -56,16 +55,33 @@
         </tr>
     </thead>
     <tbody>
-        <!-- Fetch and display records from the database using PHP -->
-        <!-- You can loop through your database records and generate rows -->
-        <tr>
-            <td>Jaya</td>
-            <td>Bank A</td>
-            <td>12345</td>
-            <td>2024-02-28</td>
-            <td>2024-03-15</td>
-        </tr>
-        <!-- Add more rows as needed -->
+        <?php
+        // Include database connection file
+        include_once "db_connection.php";
+
+        // SQL query to fetch records from the database
+        $sql = "SELECT * FROM your_table";
+        $result = mysqli_query($conn, $sql);
+
+        // Check if records exist
+        if (mysqli_num_rows($result) > 0) {
+            // Output data of each row
+            while($row = mysqli_fetch_assoc($result)) {
+                echo "<tr>";
+                echo "<td>" . $row["loan_scheme"] . "</td>";
+                echo "<td>" . $row["bank"] . "</td>";
+                echo "<td>" . $row["loan_reg_number"] . "</td>";
+                echo "<td>" . $row["from_date"] . "</td>";
+                echo "<td>" . $row["to_date"] . "</td>";
+                echo "</tr>";
+            }
+        } else {
+            echo "<tr><td colspan='5'>No records found</td></tr>";
+        }
+
+        // Close database connection
+        mysqli_close($conn);
+        ?>
     </tbody>
 </table>
 </div>
@@ -96,4 +112,3 @@ document.getElementById('printButton').addEventListener('click', printRecords);
 
 </body>
 </html>
-

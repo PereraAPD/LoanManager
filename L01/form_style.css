@@ -161,3 +161,8 @@ ul li{
 .navbar ul.submenu{
     padding:0px;
 }
+/* newly added */
+.table-container {
+    max-height: 400px; /* Adjust the max height as needed */
+    overflow-y: auto; /* Enable vertical scrollbar */
+}
